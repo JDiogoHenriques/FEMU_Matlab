@@ -1,0 +1,1216 @@
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       19:11:37
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       19:11:37
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A_00_10_MeshAux','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       19:12:19
+!*  
+FINISH  
+/CLEAR,START
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       19:12:20
+/input,start,ans,'C:\Program Files\ANSYS Inc\ANSYS Student\v202\ANSYS\apdl\'
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:48:01  
+/input,start,ans,'C:\Program Files\ANSYS Inc\ANSYS Student\v202\ANSYS\apdl\'
+!*  
+/AUX15  
+!*  
+IOPTN,IGES,SMOOTH   
+IOPTN,MERGE,YES 
+IOPTN,SOLID,YES 
+IOPTN,SMALL,YES 
+IOPTN,GTOLER, DEFA  
+IGESIN,'A00_10','iges','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\CAD\IGES\'   
+APLOT   
+APLOT   
+!*  
+!*  
+*DIM,Material_prop,ARRAY,1,4
+*CREATE,ansuitmp
+*VREAD,Material_prop(1,1),Number_Materials,dat,,JIK,4,1 
+(F12.6,'  ',F12.6,'  ',F12.6,'  ',F12.6)
+*END
+/INPUT,ansuitmp 
+*SET,Number_of_Materials,Material_prop(1,1)      ! 1 for Homogeneous Material; 2 for Heterogeneuous Material
+*SET,THICKNESS,Material_prop(1,2)   
+*SET,ELEMENTSZ,Material_prop(1,4)   
+*AFUN, DEG                                  ! Specifies units for angular functions in degrees  
+*SET,ang,Material_prop(1,3)                      ! off-axis angle (degrees) 
+!*  
+FINISH  
+/PREP7  
+!*  
+ET,1,PLANE182   
+!*  
+KEYOPT,1,1,0
+KEYOPT,1,3,3
+KEYOPT,1,6,0
+!*  
+R,1,THICKNESS   
+!*Reading Material properties   
+*IF,Number_of_Materials,EQ,2,THEN   
+*SET,cols , Number_of_Materials 
+/INQUIRE,rows,LINES,Fixed_materialproperties_Heter,dat  
+*DIM,Fixed_Mat_Properties,ARRAY,rows,cols   
+*CREATE,ansuitmp
+    *VREAD,Fixed_Mat_Properties,Fixed_materialproperties_Heter,dat,,JIK,cols,rows   
+    (F12.6,'  ',F12.6)  
+*END
+/INPUT,ansuitmp 
+*SET,cols , Number_of_Materials 
+/INQUIRE,rows,LINES,Variable_materialproperties_Heter,dat   
+*DIM,Var_Mat_Properties,ARRAY,rows,cols 
+*CREATE,ansuitmp
+    *VREAD,Var_Mat_Properties,Variable_materialproperties_Heter,dat,,JIK,cols,rows  
+    (F12.6,'  ',F12.6)  
+*END
+/INPUT,ansuitmp 
+! Stifness matrix [S] in the specimen coordinate system:
+!------Early Wood--------   
+/INPUT,M_Srq_3D_EW,mac  
+TB,ANEL,1,,,1       ! Estrutura do comando: TB, ANEL, n�mero material, num. temperatura, num. entradas, matrix de flexibilidade (1)   
+! The stress directions are parallel to the element coordinate system.  
+! Element coordinate system is paralle to the global coordinate system  
+TBDATA,,S_rq_EW(1,1),S_rq_EW(2,1),S_rq_EW(3,1),S_rq_EW(4,1),S_rq_EW(5,1),S_rq_EW(6,1)   
+TBDATA,,S_rq_EW(2,2),S_rq_EW(3,2),S_rq_EW(4,2),S_rq_EW(5,2),S_rq_EW(6,2),S_rq_EW(3,3)   
+TBDATA,,S_rq_EW(4,3),S_rq_EW(5,3),S_rq_EW(6,3),S_rq_EW(4,4),S_rq_EW(5,4),S_rq_EW(6,4)   
+TBDATA,,S_rq_EW(5,5),S_rq_EW(6,5),S_rq_EW(6,6)  
+!------Late Wood--------
+/INPUT,M_Srq_3D_LW,mac  
+TB,ANEL,2,,,1       ! Estrutura do comando: TB, ANEL, n�mero material, num. temperatura, num. entradas, matrix de flexibilidade (1)   
+! The stress directions are parallel to the element coordinate system.  
+! Element coordinate system is paralle to the global coordinate system  
+TBDATA,,S_rq_LW(1,1),S_rq_LW(2,1),S_rq_LW(3,1),S_rq_LW(4,1),S_rq_LW(5,1),S_rq_LW(6,1)   
+TBDATA,,S_rq_LW(2,2),S_rq_LW(3,2),S_rq_LW(4,2),S_rq_LW(5,2),S_rq_LW(6,2),S_rq_LW(3,3)   
+TBDATA,,S_rq_LW(4,3),S_rq_LW(5,3),S_rq_LW(6,3),S_rq_LW(4,4),S_rq_LW(5,4),S_rq_LW(6,4)   
+TBDATA,,S_rq_LW(5,5),S_rq_LW(6,5),S_rq_LW(6,6)  
+!*Selecting EW Areas
+FLST,5,3,5,ORDE,3   
+FITEM,5,13  
+FITEM,5,15  
+FITEM,5,18  
+ASEL,S, , ,P51X 
+!*AATT, MAT, REAL, TYPE, ESYS, SECN 
+AATT,1,1,1,0,   
+!*Selecting LW Areas
+FLST,5,16,5,ORDE,6  
+FITEM,5,1   
+FITEM,5,-12 
+FITEM,5,14  
+FITEM,5,16  
+FITEM,5,-17 
+FITEM,5,19  
+ASEL,S, , ,P51X 
+!*AATT, MAT, REAL, TYPE, ESYS, SECN 
+AATT,2,1,1,0,   
+ALLSEL,ALL  
+*ELSE   
+*SET,cols , Number_of_Materials 
+/INQUIRE,rows,LINES,Fixed_materialproperties_Homog,dat  
+*DIM,Fixed_Mat_Properties,ARRAY,rows,cols   
+*CREATE,ansuitmp
+*VREAD,Fixed_Mat_Properties,Fixed_materialproperties_Homog,dat,,JIK,cols,rows   
+(F12.6) 
+*END
+/INPUT,ansuitmp 
+*SET,cols , Number_of_Materials 
+/INQUIRE,rows,LINES,Variable_materialproperties_Homog,dat   
+*DIM,Var_Mat_Properties,ARRAY,rows,cols 
+*CREATE,ansuitmp
+*VREAD,Var_Mat_Properties,Variable_materialproperties_Homog,dat,,JIK,cols,rows  
+(F12.6) 
+*END
+/INPUT,ansuitmp 
+! Stifness matrix [S] in the specimen coordinate system:
+!------Early Wood--------   
+/INPUT,M_Srq_3D_Homog,mac   
+TB,ANEL,1,,,1       ! Estrutura do comando: TB, ANEL, n�mero material, num. temperatura, num. entradas, matrix de flexibilidade (1)   
+! The stress directions are parallel to the element coordinate system.  
+! Element coordinate system is paralle to the global coordinate system  
+TBDATA,,S_rq_Homog(1,1),S_rq_Homog(2,1),S_rq_Homog(3,1),S_rq_Homog(4,1),S_rq_Homog(5,1),S_rq_Homog(6,1) 
+TBDATA,,S_rq_Homog(2,2),S_rq_Homog(3,2),S_rq_Homog(4,2),S_rq_Homog(5,2),S_rq_Homog(6,2),S_rq_Homog(3,3) 
+TBDATA,,S_rq_Homog(4,3),S_rq_Homog(5,3),S_rq_Homog(6,3),S_rq_Homog(4,4),S_rq_Homog(5,4),S_rq_Homog(6,4) 
+TBDATA,,S_rq_Homog(5,5),S_rq_Homog(6,5),S_rq_Homog(6,6) 
+!*Selecting Areas   
+ALLSEL,ALL  
+!*AATT, MAT, REAL, TYPE, ESYS, SECN 
+AATT,1,1,1,0,   
+*ENDIF  
+!*  --------------------------------Element Sizing--------------------------------  
+AESIZE,ALL,ELEMENTSZ
+!*MSHAPE, KEY (0 = Mesh with quadrilateral-shaped elements, 1 = Mesh with triangle-shaped elements), Dimension  
+MSHAPE,0,2D 
+!*MSHKEY, KEY (0 = Free Meshing, 1 = Mapped Meshing)
+MSHKEY,1
+!*  
+AMESH,ALL   
+!* LEFT BOUNDARY NODES  
+LSEL,S,LOC,X,0 !Select line 
+NSll,S,1       !Select nodes associated to line 
+*GET,nodes_L,NODE,0,COUNT   
+!*  
+*DIM,Coord_nodes_L,ARRAY,nodes_L,3  
+*VGET,Coord_nodes_L(1,1),NODE,,NLIST
+*DO, i, 1, nodes_L, 1   
+*SET,Coord_nodes_L(i,3),NY(Coord_nodes_L(i,1))  
+*ENDDO  
+*IF,Number_of_Materials,EQ,2,THEN   
+*SET,cols , Number_of_Materials 
+/INQUIRE,rows,LINES,Fixed_materialproperties_Heter,dat  
+*DIM,Fixed_Mat_Properties,ARRAY,rows,cols   
+*CREATE,ansuitmp
+    *VREAD,Fixed_Mat_Properties,Fixed_materialproperties_Heter,dat,,JIK,cols,rows   
+    (F12.6,'  ',F12.6)  
+*END
+/INPUT,ansuitmp 
+*SET,cols , Number_of_Materials 
+/INQUIRE,rows,LINES,Variable_materialproperties_Heter,dat   
+*DIM,Var_Mat_Properties,ARRAY,rows,cols 
+*CREATE,ansuitmp
+    *VREAD,Var_Mat_Properties,Variable_materialproperties_Heter,dat,,JIK,cols,rows  
+    (F12.6,'  ',F12.6)  
+*END
+/INPUT,ansuitmp 
+! Stifness matrix [S] in the specimen coordinate system:
+!------Early Wood--------   
+/INPUT,M_Srq_3D_EW,mac  
+TB,ANEL,1,,,1       ! Estrutura do comando: TB, ANEL, n�mero material, num. temperatura, num. entradas, matrix de flexibilidade (1)   
+! The stress directions are parallel to the element coordinate system.  
+! Element coordinate system is paralle to the global coordinate system  
+TBDATA,,S_rq_EW(1,1),S_rq_EW(2,1),S_rq_EW(3,1),S_rq_EW(4,1),S_rq_EW(5,1),S_rq_EW(6,1)   
+TBDATA,,S_rq_EW(2,2),S_rq_EW(3,2),S_rq_EW(4,2),S_rq_EW(5,2),S_rq_EW(6,2),S_rq_EW(3,3)   
+TBDATA,,S_rq_EW(4,3),S_rq_EW(5,3),S_rq_EW(6,3),S_rq_EW(4,4),S_rq_EW(5,4),S_rq_EW(6,4)   
+TBDATA,,S_rq_EW(5,5),S_rq_EW(6,5),S_rq_EW(6,6)  
+!------Late Wood--------
+/INPUT,M_Srq_3D_LW,mac  
+TB,ANEL,2,,,1       ! Estrutura do comando: TB, ANEL, n�mero material, num. temperatura, num. entradas, matrix de flexibilidade (1)   
+! The stress directions are parallel to the element coordinate system.  
+! Element coordinate system is paralle to the global coordinate system  
+TBDATA,,S_rq_LW(1,1),S_rq_LW(2,1),S_rq_LW(3,1),S_rq_LW(4,1),S_rq_LW(5,1),S_rq_LW(6,1)   
+TBDATA,,S_rq_LW(2,2),S_rq_LW(3,2),S_rq_LW(4,2),S_rq_LW(5,2),S_rq_LW(6,2),S_rq_LW(3,3)   
+TBDATA,,S_rq_LW(4,3),S_rq_LW(5,3),S_rq_LW(6,3),S_rq_LW(4,4),S_rq_LW(5,4),S_rq_LW(6,4)   
+TBDATA,,S_rq_LW(5,5),S_rq_LW(6,5),S_rq_LW(6,6)  
+!*Selecting EW Areas
+FLST,5,3,5,ORDE,3   
+FITEM,5,13  
+FITEM,5,15  
+FITEM,5,18  
+ASEL,S, , ,P51X 
+!*AATT, MAT, REAL, TYPE, ESYS, SECN 
+AATT,1,1,1,0,   
+!*Selecting LW Areas
+FLST,5,16,5,ORDE,6  
+FITEM,5,1   
+FITEM,5,-12 
+FITEM,5,14  
+FITEM,5,16  
+FITEM,5,-17 
+FITEM,5,19  
+ASEL,S, , ,P51X 
+!*AATT, MAT, REAL, TYPE, ESYS, SECN 
+AATT,2,1,1,0,   
+ALLSEL,ALL  
+*ELSE   
+*SET,cols , Number_of_Materials 
+/INQUIRE,rows,LINES,Fixed_materialproperties_Homog,dat  
+*DIM,Fixed_Mat_Properties,ARRAY,rows,cols   
+*CREATE,ansuitmp
+*VREAD,Fixed_Mat_Properties,Fixed_materialproperties_Homog,dat,,JIK,cols,rows   
+(F12.6) 
+*END
+/INPUT,ansuitmp 
+*SET,cols , Number_of_Materials 
+/INQUIRE,rows,LINES,Variable_materialproperties_Homog,dat   
+*DIM,Var_Mat_Properties,ARRAY,rows,cols 
+*CREATE,ansuitmp
+*VREAD,Var_Mat_Properties,Variable_materialproperties_Homog,dat,,JIK,cols,rows  
+(F12.6) 
+*END
+/INPUT,ansuitmp 
+! Stifness matrix [S] in the specimen coordinate system:
+!------Early Wood--------   
+/INPUT,M_Srq_3D_Homog,mac   
+TB,ANEL,1,,,1       ! Estrutura do comando: TB, ANEL, n�mero material, num. temperatura, num. entradas, matrix de flexibilidade (1)   
+! The stress directions are parallel to the element coordinate system.  
+! Element coordinate system is paralle to the global coordinate system  
+TBDATA,,S_rq_Homog(1,1),S_rq_Homog(2,1),S_rq_Homog(3,1),S_rq_Homog(4,1),S_rq_Homog(5,1),S_rq_Homog(6,1) 
+TBDATA,,S_rq_Homog(2,2),S_rq_Homog(3,2),S_rq_Homog(4,2),S_rq_Homog(5,2),S_rq_Homog(6,2),S_rq_Homog(3,3) 
+TBDATA,,S_rq_Homog(4,3),S_rq_Homog(5,3),S_rq_Homog(6,3),S_rq_Homog(4,4),S_rq_Homog(5,4),S_rq_Homog(6,4) 
+TBDATA,,S_rq_Homog(5,5),S_rq_Homog(6,5),S_rq_Homog(6,6) 
+!*Selecting Areas   
+ALLSEL,ALL  
+!*AATT, MAT, REAL, TYPE, ESYS, SECN 
+AATT,1,1,1,0,   
+*ENDIF  
+!*  
+FINISH  
+/CLEAR,START
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       19:13:27
+/input,start,ans,'C:\Program Files\ANSYS Inc\ANSYS Student\v202\ANSYS\apdl\'
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:48:01  
+/input,start,ans,'C:\Program Files\ANSYS Inc\ANSYS Student\v202\ANSYS\apdl\'
+!*  
+/AUX15  
+!*  
+IOPTN,IGES,SMOOTH   
+IOPTN,MERGE,YES 
+IOPTN,SOLID,YES 
+IOPTN,SMALL,YES 
+IOPTN,GTOLER, DEFA  
+IGESIN,'A00_10','iges','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\CAD\IGES\'   
+APLOT   
+APLOT   
+!*  
+!*  
+*DIM,Material_prop,ARRAY,1,4
+*CREATE,ansuitmp
+*VREAD,Material_prop(1,1),Number_Materials,dat,,JIK,4,1 
+(F12.6,'  ',F12.6,'  ',F12.6,'  ',F12.6)
+*END
+/INPUT,ansuitmp 
+*SET,Number_of_Materials,Material_prop(1,1)      ! 1 for Homogeneous Material; 2 for Heterogeneuous Material
+*SET,THICKNESS,Material_prop(1,2)   
+*SET,ELEMENTSZ,Material_prop(1,4)   
+*AFUN, DEG                                  ! Specifies units for angular functions in degrees  
+*SET,ang,Material_prop(1,3)                      ! off-axis angle (degrees) 
+!*  
+FINISH  
+/PREP7  
+!*  
+ET,1,PLANE182   
+!*  
+KEYOPT,1,1,0
+KEYOPT,1,3,3
+KEYOPT,1,6,0
+!*  
+R,1,THICKNESS   
+*SET,cols , Number_of_Materials 
+/INQUIRE,rows,LINES,Fixed_materialproperties_Heter,dat  
+*DIM,Fixed_Mat_Properties,ARRAY,rows,cols   
+*CREATE,ansuitmp
+    *VREAD,Fixed_Mat_Properties,Fixed_materialproperties_Heter,dat,,JIK,cols,rows   
+    (F12.6,'  ',F12.6)  
+*END
+/INPUT,ansuitmp 
+*SET,cols , Number_of_Materials 
+/INQUIRE,rows,LINES,Variable_materialproperties_Heter,dat   
+*DIM,Var_Mat_Properties,ARRAY,rows,cols 
+*CREATE,ansuitmp
+    *VREAD,Var_Mat_Properties,Variable_materialproperties_Heter,dat,,JIK,cols,rows  
+    (F12.6,'  ',F12.6)  
+*END
+/INPUT,ansuitmp 
+! Stifness matrix [S] in the specimen coordinate system:
+!------Early Wood--------   
+/INPUT,M_Srq_3D_EW,mac  
+TB,ANEL,1,,,1       ! Estrutura do comando: TB, ANEL, n�mero material, num. temperatura, num. entradas, matrix de flexibilidade (1)   
+! The stress directions are parallel to the element coordinate system.  
+! Element coordinate system is paralle to the global coordinate system  
+TBDATA,,S_rq_EW(1,1),S_rq_EW(2,1),S_rq_EW(3,1),S_rq_EW(4,1),S_rq_EW(5,1),S_rq_EW(6,1)   
+TBDATA,,S_rq_EW(2,2),S_rq_EW(3,2),S_rq_EW(4,2),S_rq_EW(5,2),S_rq_EW(6,2),S_rq_EW(3,3)   
+TBDATA,,S_rq_EW(4,3),S_rq_EW(5,3),S_rq_EW(6,3),S_rq_EW(4,4),S_rq_EW(5,4),S_rq_EW(6,4)   
+TBDATA,,S_rq_EW(5,5),S_rq_EW(6,5),S_rq_EW(6,6)  
+!------Late Wood--------
+/INPUT,M_Srq_3D_LW,mac  
+TB,ANEL,2,,,1       ! Estrutura do comando: TB, ANEL, n�mero material, num. temperatura, num. entradas, matrix de flexibilidade (1)   
+! The stress directions are parallel to the element coordinate system.  
+! Element coordinate system is paralle to the global coordinate system  
+TBDATA,,S_rq_LW(1,1),S_rq_LW(2,1),S_rq_LW(3,1),S_rq_LW(4,1),S_rq_LW(5,1),S_rq_LW(6,1)   
+TBDATA,,S_rq_LW(2,2),S_rq_LW(3,2),S_rq_LW(4,2),S_rq_LW(5,2),S_rq_LW(6,2),S_rq_LW(3,3)   
+TBDATA,,S_rq_LW(4,3),S_rq_LW(5,3),S_rq_LW(6,3),S_rq_LW(4,4),S_rq_LW(5,4),S_rq_LW(6,4)   
+TBDATA,,S_rq_LW(5,5),S_rq_LW(6,5),S_rq_LW(6,6)  
+FLST,5,4,5,ORDE,4   
+FITEM,5,2   
+FITEM,5,4   
+FITEM,5,6   
+FITEM,5,8   
+ASEL,S, , ,P51X 
+FLST,5,5,5,ORDE,5   
+FITEM,5,1   
+FITEM,5,3   
+FITEM,5,5   
+FITEM,5,7   
+FITEM,5,9   
+ASEL,S, , ,P51X 
+FINISH  
+! /EXIT,MODEL   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       19:29:32
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       19:29:32
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+!*  
+FINISH  
+/CLEAR,START
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       19:29:42
+/input,start,ans,'C:\Program Files\ANSYS Inc\ANSYS Student\v202\ANSYS\apdl\'
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:48:01  
+/input,start,ans,'C:\Program Files\ANSYS Inc\ANSYS Student\v202\ANSYS\apdl\'
+!*  
+/AUX15  
+!*  
+IOPTN,IGES,SMOOTH   
+IOPTN,MERGE,YES 
+IOPTN,SOLID,YES 
+IOPTN,SMALL,YES 
+IOPTN,GTOLER, DEFA  
+IGESIN,'A00_10','iges','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\CAD\IGES\'   
+APLOT   
+APLOT   
+!*  
+!*  
+*DIM,Material_prop,ARRAY,1,4
+*CREATE,ansuitmp
+*VREAD,Material_prop(1,1),Number_Materials,dat,,JIK,4,1 
+(F12.6,'  ',F12.6,'  ',F12.6,'  ',F12.6)
+*END
+/INPUT,ansuitmp 
+*SET,Number_of_Materials,Material_prop(1,1)      ! 1 for Homogeneous Material; 2 for Heterogeneuous Material
+*SET,THICKNESS,Material_prop(1,2)   
+*SET,ELEMENTSZ,Material_prop(1,4)   
+*AFUN, DEG                                  ! Specifies units for angular functions in degrees  
+*SET,ang,Material_prop(1,3)                      ! off-axis angle (degrees) 
+!*  
+FINISH  
+/PREP7  
+!*  
+ET,1,PLANE182   
+!*  
+KEYOPT,1,1,0
+KEYOPT,1,3,3
+KEYOPT,1,6,0
+!*  
+R,1,THICKNESS   
+*SET,cols , Number_of_Materials 
+/INQUIRE,rows,LINES,Fixed_materialproperties_Heter,dat  
+*DIM,Fixed_Mat_Properties,ARRAY,rows,cols   
+*CREATE,ansuitmp
+    *VREAD,Fixed_Mat_Properties,Fixed_materialproperties_Heter,dat,,JIK,cols,rows   
+    (F12.6,'  ',F12.6)  
+*END
+/INPUT,ansuitmp 
+*SET,cols , Number_of_Materials 
+/INQUIRE,rows,LINES,Variable_materialproperties_Heter,dat   
+*DIM,Var_Mat_Properties,ARRAY,rows,cols 
+*CREATE,ansuitmp
+    *VREAD,Var_Mat_Properties,Variable_materialproperties_Heter,dat,,JIK,cols,rows  
+    (F12.6,'  ',F12.6)  
+*END
+/INPUT,ansuitmp 
+! Stifness matrix [S] in the specimen coordinate system:
+!------Early Wood--------   
+/INPUT,M_Srq_3D_EW,mac  
+TB,ANEL,1,,,1       ! Estrutura do comando: TB, ANEL, n�mero material, num. temperatura, num. entradas, matrix de flexibilidade (1)   
+! The stress directions are parallel to the element coordinate system.  
+! Element coordinate system is paralle to the global coordinate system  
+TBDATA,,S_rq_EW(1,1),S_rq_EW(2,1),S_rq_EW(3,1),S_rq_EW(4,1),S_rq_EW(5,1),S_rq_EW(6,1)   
+TBDATA,,S_rq_EW(2,2),S_rq_EW(3,2),S_rq_EW(4,2),S_rq_EW(5,2),S_rq_EW(6,2),S_rq_EW(3,3)   
+TBDATA,,S_rq_EW(4,3),S_rq_EW(5,3),S_rq_EW(6,3),S_rq_EW(4,4),S_rq_EW(5,4),S_rq_EW(6,4)   
+TBDATA,,S_rq_EW(5,5),S_rq_EW(6,5),S_rq_EW(6,6)  
+!------Late Wood--------
+/INPUT,M_Srq_3D_LW,mac  
+TB,ANEL,2,,,1       ! Estrutura do comando: TB, ANEL, n�mero material, num. temperatura, num. entradas, matrix de flexibilidade (1)   
+! The stress directions are parallel to the element coordinate system.  
+! Element coordinate system is paralle to the global coordinate system  
+TBDATA,,S_rq_LW(1,1),S_rq_LW(2,1),S_rq_LW(3,1),S_rq_LW(4,1),S_rq_LW(5,1),S_rq_LW(6,1)   
+TBDATA,,S_rq_LW(2,2),S_rq_LW(3,2),S_rq_LW(4,2),S_rq_LW(5,2),S_rq_LW(6,2),S_rq_LW(3,3)   
+TBDATA,,S_rq_LW(4,3),S_rq_LW(5,3),S_rq_LW(6,3),S_rq_LW(4,4),S_rq_LW(5,4),S_rq_LW(6,4)   
+TBDATA,,S_rq_LW(5,5),S_rq_LW(6,5),S_rq_LW(6,6)  
+!*Selecting EW Areas
+FLST,5,4,5,ORDE,4   
+FITEM,5,2   
+FITEM,5,4   
+FITEM,5,6   
+FITEM,5,8   
+ASEL,S, , ,P51X 
+!*AATT, MAT, REAL, TYPE, ESYS, SECN 
+AATT,1,1,1,0,   
+!*Selecting LW Areas
+FLST,5,5,5,ORDE,5   
+FITEM,5,1   
+FITEM,5,3   
+FITEM,5,5   
+FITEM,5,7   
+FITEM,5,9   
+ASEL,S, , ,P51X 
+!*AATT, MAT, REAL, TYPE, ESYS, SECN 
+AATT,2,1,1,0,   
+ALLSEL,ALL  
+!*  --------------------------------Element Sizing--------------------------------  
+AESIZE,ALL,ELEMENTSZ
+!*MSHAPE, KEY (0 = Mesh with quadrilateral-shaped elements, 1 = Mesh with triangle-shaped elements), Dimension  
+MSHAPE,0,2D 
+!*MSHKEY, KEY (0 = Free Meshing, 1 = Mapped Meshing)
+MSHKEY,1
+!*  
+AMESH,ALL   
+!* LEFT BOUNDARY NODES  
+LSEL,S,LOC,X,0 !Select line 
+NSll,S,1       !Select nodes associated to line 
+*GET,nodes_L,NODE,0,COUNT   
+!*  
+*DIM,Coord_nodes_L,ARRAY,nodes_L,3  
+*VGET,Coord_nodes_L(1,1),NODE,,NLIST
+*DO, i, 1, nodes_L, 1   
+*SET,Coord_nodes_L(i,3),NY(Coord_nodes_L(i,1))  
+*ENDDO  
+ALLSEL,ALL  
+!* RIGHT BOUNDARY NODES 
+ALLSEL,ALL  
+*GET,xmax,NODE,,MXLOC,X 
+LSEL,S,LOC,X,xmax !Select line  
+NSll,S,1          !Select nodes associated to line  
+*GET,nodes_R,NODE,0,COUNT   
+!*  
+*DIM,Coord_nodes_R,ARRAY,nodes_R,3  
+*VGET,Coord_nodes_R(1,1),NODE,,NLIST
+*DO, i, 1, nodes_R, 1   
+*SET,Coord_nodes_R(i,2), xmax   
+*SET,Coord_nodes_R(i,3),NY(Coord_nodes_R(i,1))  
+*ENDDO  
+ALLSEL,ALL  
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       19:35:02
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       19:35:02
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+!*  
+FINISH  
+/CLEAR,START
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       19:35:23
+/input,start,ans,'C:\Program Files\ANSYS Inc\ANSYS Student\v202\ANSYS\apdl\'
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:48:01  
+/input,start,ans,'C:\Program Files\ANSYS Inc\ANSYS Student\v202\ANSYS\apdl\'
+!*  
+/AUX15  
+!*  
+IOPTN,IGES,SMOOTH   
+IOPTN,MERGE,YES 
+IOPTN,SOLID,YES 
+IOPTN,SMALL,YES 
+IOPTN,GTOLER, DEFA  
+IGESIN,'A00_10','iges','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\CAD\IGES\'   
+APLOT   
+APLOT   
+!*  
+!*  
+*DIM,Material_prop,ARRAY,1,4
+*CREATE,ansuitmp
+*VREAD,Material_prop(1,1),Number_Materials,dat,,JIK,4,1 
+(F12.6,'  ',F12.6,'  ',F12.6,'  ',F12.6)
+*END
+/INPUT,ansuitmp 
+*SET,Number_of_Materials,Material_prop(1,1)      ! 1 for Homogeneous Material; 2 for Heterogeneuous Material
+*SET,THICKNESS,Material_prop(1,2)   
+*SET,ELEMENTSZ,Material_prop(1,4)   
+*AFUN, DEG                                  ! Specifies units for angular functions in degrees  
+*SET,ang,Material_prop(1,3)                      ! off-axis angle (degrees) 
+!*  
+FINISH  
+/PREP7  
+!*  
+ET,1,PLANE182   
+!*  
+KEYOPT,1,1,0
+KEYOPT,1,3,3
+KEYOPT,1,6,0
+!*  
+R,1,THICKNESS   
+!*Reading Material properties   
+*IF,Number_of_Materials,EQ,2,THEN   
+*SET,cols , Number_of_Materials 
+/INQUIRE,rows,LINES,Fixed_materialproperties_Heter,dat  
+*DIM,Fixed_Mat_Properties,ARRAY,rows,cols   
+*CREATE,ansuitmp
+    *VREAD,Fixed_Mat_Properties,Fixed_materialproperties_Heter,dat,,JIK,cols,rows   
+    (F12.6,'  ',F12.6)  
+*END
+/INPUT,ansuitmp 
+*SET,cols , Number_of_Materials 
+/INQUIRE,rows,LINES,Variable_materialproperties_Heter,dat   
+*DIM,Var_Mat_Properties,ARRAY,rows,cols 
+*CREATE,ansuitmp
+    *VREAD,Var_Mat_Properties,Variable_materialproperties_Heter,dat,,JIK,cols,rows  
+    (F12.6,'  ',F12.6)  
+*END
+/INPUT,ansuitmp 
+! Stifness matrix [S] in the specimen coordinate system:
+!------Early Wood--------   
+/INPUT,M_Srq_3D_EW,mac  
+TB,ANEL,1,,,1       ! Estrutura do comando: TB, ANEL, n�mero material, num. temperatura, num. entradas, matrix de flexibilidade (1)   
+! The stress directions are parallel to the element coordinate system.  
+! Element coordinate system is paralle to the global coordinate system  
+TBDATA,,S_rq_EW(1,1),S_rq_EW(2,1),S_rq_EW(3,1),S_rq_EW(4,1),S_rq_EW(5,1),S_rq_EW(6,1)   
+TBDATA,,S_rq_EW(2,2),S_rq_EW(3,2),S_rq_EW(4,2),S_rq_EW(5,2),S_rq_EW(6,2),S_rq_EW(3,3)   
+TBDATA,,S_rq_EW(4,3),S_rq_EW(5,3),S_rq_EW(6,3),S_rq_EW(4,4),S_rq_EW(5,4),S_rq_EW(6,4)   
+TBDATA,,S_rq_EW(5,5),S_rq_EW(6,5),S_rq_EW(6,6)  
+!------Late Wood--------
+/INPUT,M_Srq_3D_LW,mac  
+TB,ANEL,2,,,1       ! Estrutura do comando: TB, ANEL, n�mero material, num. temperatura, num. entradas, matrix de flexibilidade (1)   
+! The stress directions are parallel to the element coordinate system.  
+! Element coordinate system is paralle to the global coordinate system  
+TBDATA,,S_rq_LW(1,1),S_rq_LW(2,1),S_rq_LW(3,1),S_rq_LW(4,1),S_rq_LW(5,1),S_rq_LW(6,1)   
+TBDATA,,S_rq_LW(2,2),S_rq_LW(3,2),S_rq_LW(4,2),S_rq_LW(5,2),S_rq_LW(6,2),S_rq_LW(3,3)   
+TBDATA,,S_rq_LW(4,3),S_rq_LW(5,3),S_rq_LW(6,3),S_rq_LW(4,4),S_rq_LW(5,4),S_rq_LW(6,4)   
+TBDATA,,S_rq_LW(5,5),S_rq_LW(6,5),S_rq_LW(6,6)  
+!*Selecting EW Areas
+FLST,5,4,5,ORDE,4   
+FITEM,5,2   
+FITEM,5,4   
+FITEM,5,6   
+FITEM,5,8   
+ASEL,S, , ,P51X 
+!*AATT, MAT, REAL, TYPE, ESYS, SECN 
+AATT,1,1,1,0,   
+!*Selecting LW Areas
+FLST,5,5,5,ORDE,5   
+FITEM,5,1   
+FITEM,5,3   
+FITEM,5,5   
+FITEM,5,7   
+FITEM,5,9   
+ASEL,S, , ,P51X 
+!*AATT, MAT, REAL, TYPE, ESYS, SECN 
+AATT,2,1,1,0,   
+ALLSEL,ALL  
+*ELSE   
+*SET,cols , Number_of_Materials 
+/INQUIRE,rows,LINES,Fixed_materialproperties_Homog,dat  
+*DIM,Fixed_Mat_Properties,ARRAY,rows,cols   
+*CREATE,ansuitmp
+*VREAD,Fixed_Mat_Properties,Fixed_materialproperties_Homog,dat,,JIK,cols,rows   
+(F12.6) 
+*END
+/INPUT,ansuitmp 
+*SET,cols , Number_of_Materials 
+/INQUIRE,rows,LINES,Variable_materialproperties_Homog,dat   
+*DIM,Var_Mat_Properties,ARRAY,rows,cols 
+*CREATE,ansuitmp
+*VREAD,Var_Mat_Properties,Variable_materialproperties_Homog,dat,,JIK,cols,rows  
+(F12.6) 
+*END
+/INPUT,ansuitmp 
+! Stifness matrix [S] in the specimen coordinate system:
+!------Early Wood--------   
+/INPUT,M_Srq_3D_Homog,mac   
+TB,ANEL,1,,,1       ! Estrutura do comando: TB, ANEL, n�mero material, num. temperatura, num. entradas, matrix de flexibilidade (1)   
+! The stress directions are parallel to the element coordinate system.  
+! Element coordinate system is paralle to the global coordinate system  
+TBDATA,,S_rq_Homog(1,1),S_rq_Homog(2,1),S_rq_Homog(3,1),S_rq_Homog(4,1),S_rq_Homog(5,1),S_rq_Homog(6,1) 
+TBDATA,,S_rq_Homog(2,2),S_rq_Homog(3,2),S_rq_Homog(4,2),S_rq_Homog(5,2),S_rq_Homog(6,2),S_rq_Homog(3,3) 
+TBDATA,,S_rq_Homog(4,3),S_rq_Homog(5,3),S_rq_Homog(6,3),S_rq_Homog(4,4),S_rq_Homog(5,4),S_rq_Homog(6,4) 
+TBDATA,,S_rq_Homog(5,5),S_rq_Homog(6,5),S_rq_Homog(6,6) 
+!*Selecting Areas   
+ALLSEL,ALL  
+!*AATT, MAT, REAL, TYPE, ESYS, SECN 
+AATT,1,1,1,0,   
+*ENDIF  
+!*  --------------------------------Element Sizing--------------------------------  
+AESIZE,ALL,ELEMENTSZ
+!*MSHAPE, KEY (0 = Mesh with quadrilateral-shaped elements, 1 = Mesh with triangle-shaped elements), Dimension  
+MSHAPE,0,2D 
+!*MSHKEY, KEY (0 = Free Meshing, 1 = Mapped Meshing)
+MSHKEY,1
+!*  
+AMESH,ALL   
+!* LEFT BOUNDARY NODES  
+LSEL,S,LOC,X,0 !Select line 
+NSll,S,1       !Select nodes associated to line 
+*GET,nodes_L,NODE,0,COUNT   
+!*  
+*DIM,Coord_nodes_L,ARRAY,nodes_L,3  
+*VGET,Coord_nodes_L(1,1),NODE,,NLIST
+*DO, i, 1, nodes_L, 1   
+*SET,Coord_nodes_L(i,3),NY(Coord_nodes_L(i,1))  
+*ENDDO  
+ALLSEL,ALL  
+!* RIGHT BOUNDARY NODES 
+ALLSEL,ALL  
+*GET,xmax,NODE,,MXLOC,X 
+LSEL,S,LOC,X,xmax !Select line  
+NSll,S,1          !Select nodes associated to line  
+*GET,nodes_R,NODE,0,COUNT   
+!*  
+*DIM,Coord_nodes_R,ARRAY,nodes_R,3  
+*VGET,Coord_nodes_R(1,1),NODE,,NLIST
+*DO, i, 1, nodes_R, 1   
+*SET,Coord_nodes_R(i,2), xmax   
+*SET,Coord_nodes_R(i,3),NY(Coord_nodes_R(i,1))  
+*ENDDO  
+ALLSEL,ALL  
+!*  
+FINISH  
+/CLEAR,START
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       19:35:55
+/input,start,ans,'C:\Program Files\ANSYS Inc\ANSYS Student\v202\ANSYS\apdl\'
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:48:01  
+/input,start,ans,'C:\Program Files\ANSYS Inc\ANSYS Student\v202\ANSYS\apdl\'
+!* Importing data from Mesh file
+/INPUT,A0010_MeshAux,mac
+!* Writing data to mac file 
+!* LEFT BOUNDARY NODES  
+ALLSEL,ALL  
+*DIM, ordering,,nodes_L ! Ordering index array  
+*MOPER, ordering(1), Coord_nodes_L(1,1), SORT, , 3,2,1 ! ordering column
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       10:19:05
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       10:19:05
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+!*  
+FINISH  
+/CLEAR,START
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       10:19:32
+/input,start,ans,'C:\Program Files\ANSYS Inc\ANSYS Student\v202\ANSYS\apdl\'
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:48:01  
+/input,start,ans,'C:\Program Files\ANSYS Inc\ANSYS Student\v202\ANSYS\apdl\'
+!* Importing data from Mesh file
+/INPUT,A00_10_MeshAux,mac   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       10:19:33
+!* -------Applying Left Boundary conditions---------
+*DIM,bc_L,ARRAY,nodes_L,3   
+*CREATE,ansuitmp
+*VREAD,bc_L(1,1),Mesh_Left_DIC2FEM,dat,,JIK,3,nodes_L   
+(F12.6,'  ',F12.6,'  ',F12.6)   
+*END
+/INPUT,ansuitmp 
+!*  
+ALLSEL,ALL  
+*DO, i, 1, nodes_L, 1   
+D,bc_L(i,1),UX,bc_L(i,2)
+D,bc_L(i,1),UY,bc_L(i,3)
+*ENDDO  
+!* -------Applying Right Boundary conditions---------   
+*DIM,bc_R,ARRAY,nodes_R,3   
+*CREATE,ansuitmp
+*VREAD,bc_R(1,1),Mesh_Right_DIC2FEM,dat,,JIK,3,nodes_R  
+(F12.6,'  ',F12.6,'  ',F12.6)   
+*END
+/INPUT,ansuitmp 
+!*  
+ALLSEL,ALL  
+*DO, i, 1, nodes_R, 1   
+D,bc_R(i,1),UX,bc_R(i,2)
+D,bc_R(i,1),UY,bc_R(i,3)
+*ENDDO  
+ALLSEL,ALL  
+FINISH  
+/SOLU   
+ANTYPE,STATIC   
+SOLVE   ! NUMERICAL ANALYSIS
+FINISH  
+/POST1  
+SET,FIRST   
+! :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: !  
+! ELEMENT SOLUTION  
+! :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: !  
+*GET,tnEL,ELEM,,COUNT,,,  ! total number of elements over S2
+*GET,emin,ELEM,,NUM,MIN   ! find out the minimum element number 
+*DIM,Xc_S2,ARRAY,tnEL,1   ! Xc - X coordinate of the centroid of the elements   
+*DIM,Yc_S2,ARRAY,tnEL,1   ! Yc - Y coordinate of the centroid of the elements   
+*DIM,Ux_S2,ARRAY,tnEL,1   ! Ux - x displacement component at the centroid of the elements   
+*DIM,Uy_S2,ARRAY,tnEL,1   ! Ux - x displacement component at the centroid of the elements   
+*DIM,Ex_S2,ARRAY,tnEL,1   ! Ex - elements average longitudinal strain component 
+*DIM,Ey_S2,ARRAY,tnEL,1   ! Ey - elements average transverse strain component   
+*DIM,Exy_S2,ARRAY,tnEL,1  ! Exy - elements average shear strain component   
+! - 
+ETABLE,etXc,CENT,X   ! defines an element table etXc for the centroid-X location
+ETABLE,etYc,CENT,Y  
+ETABLE,etUx,U,X 
+ETABLE,etUy,U,Y 
+ETABLE,etEx,EPEL,X  
+ETABLE,etEy,EPEL,Y  
+ETABLE,etExy,EPEL,XY
+! - 
+*VGET,Xc_S2(1),ELEM,emin,ETAB,etXc  ! Xc
+*VGET,Yc_S2(1),ELEM,emin,ETAB,etYc  ! Yc
+*VGET,Ux_S2(1),ELEM,emin,ETAB,etUx  ! Ux
+*VGET,Uy_S2(1),ELEM,emin,ETAB,etUy  ! Uy
+*VGET,Ex_S2(1),ELEM,emin,ETAB,etEx  ! ex
+*VGET,Ey_S2(1),ELEM,emin,ETAB,etEy  ! ey
+*VGET,Exy_S2(1),ELEM,emin,ETAB,etExy ! exy  
+! - 
+!*CREATE,ansuitmp   
+!*CFOPEN,Elem_fea,dat,, 
+!*VWRITE,Xc_S2(1),Yc_S2(1),Ux_S2(1),Uy_S2(1),Ex_S2(1),Ey_S2(1),Exy_S2(1)
+!(F10.6,'  ',F10.6,'  ',E16.10,'  ',E16.10,'  ',E16.10,'  ',E16.10,'  ',E16.10) 
+!*CFCLOS
+!*END   
+!/INPUT,ansuitmp
+! ============================================================================== !  
+! SCALAR RESULTS:   
+! ============================================================================== !  
+*DIM,rfx_l,ARRAY,nodes_L,1   !  FX at left boundary 
+*DIM,rfx_r,ARRAY,nodes_R,1   !  FX at right boundary
+*DIM,rfy_l,ARRAY,nodes_L,1   !  FY at left boundary 
+*DIM,rfy_r,ARRAY,nodes_R,1   !  FY at right boundary
+! ----------------------- Left Boundary-----------------------------
+*DO,i,1,nodes_L,1      ! nodes_L=number of nodes at left boundary   
+*GET,rfx_l(i,1),NODE,Coord_nodes_L(i,1),RF,FX ! FX Component
+*ENDDO  
+*VSCFUN,f_res_x_l,SUM,rfx_l        ! Sum of FX at left boundary 
+*DO,i,1,nodes_L,1      ! nodes_L=number of nodes at left boundary   
+*GET,rfy_l(i,1),NODE,Coord_nodes_L(i,1),RF,FY ! FY Component
+*ENDDO  
+*VSCFUN,f_res_y_l,SUM,rfy_l   ! Sum of FY at left boundary  
+! ----------------------- Right Boundary-----------------------------   
+*DO,i,1,nodes_R,1     ! nodes_R=number of nodes at right boundary   
+*GET,rfx_r(i,1),NODE,Coord_nodes_R(i,1),RF,FX ! FX Component
+*ENDDO  
+*VSCFUN,f_res_x_r,SUM,rfx_r       ! Sum of FY at left boundary  
+*DO,i,1,nodes_R,1     ! nodes_R=number of nodes at right boundary   
+*GET,rfy_r(i,1),NODE,Coord_nodes_R(i,1),RF,FY ! FY Component
+*ENDDO  
+*VSCFUN,f_res_y_r,SUM,rfy_r  ! Sum of FY at right boundary  
+! ----------------------- Writing Sum of FX and FY -----------------------------
+*CREATE,ansuitmp
+*CFOPEN,ScalarsFE_LeftBoundary,dat,,
+*VWRITE,f_res_x_l,f_res_y_l 
+(F20.5,' ', F20.5)  
+*CFCLOS 
+*END
+/INPUT,ansuitmp 
+*CREATE,ansuitmp
+*CFOPEN,ScalarsFE_RightBoundary,dat,,   
+*VWRITE,f_res_x_r,f_res_y_r 
+(F20.5,' ', F20.5)  
+*CFCLOS 
+*END
+/INPUT,ansuitmp 
+! --------------------- Writing nodal values of FX and FY --------------------- 
+*CREATE,ansuitmp
+*CFOPEN,Nodal_forcesFE_LeftBoundary,dat,,   
+*VWRITE,rfx_l(1,1),rfy_l(1,1)   
+(F20.5,' ', F20.5)  
+*CFCLOS 
+*END
+/INPUT,ansuitmp 
+*CREATE,ansuitmp
+*CFOPEN,Nodal_forces_FE_RightBoundary,dat,, 
+*VWRITE,rfx_r(1,1),rfy_r(1,1)   
+(F20.5,' ', F20.5)  
+*CFCLOS 
+*END
+/INPUT,ansuitmp 
+! :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: !  
+! NODAL SOLUTION
+! :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: !  
+ALLSEL,ALL  
+*GET,total_nodes,NODE,,COUNT   ! total number of nodes  
+! Definition of matrices
+!*  
+*DIM,nodes,ARRAY,total_nodes,1   ! List of the nodes, identified by its number  
+*VGET,nodes(1,1),NODE,,NLIST
+*DIM,x_fem,ARRAY,total_nodes,1   ! x nodal coordinates  
+*DIM,y_fem,ARRAY,total_nodes,1   ! y nodal coordinates over S2  
+*DIM,ux_fem,ARRAY,total_nodes,1   ! x displacement component over S2
+*DIM,uy_fem,ARRAY,total_nodes,1   ! y displacement component over S2
+*DIM,ex_fem,ARRAY,total_nodes,1   ! ex_S2 - x normal strain over S2 
+*DIM,ey_fem,ARRAY,total_nodes,1   ! ey_S2 - y normal strain over S2 
+*DIM,exy_fem,ARRAY,total_nodes,1  ! exy_S2 - xy shear strain over S2
+*DO,i,1,total_nodes,1   
+*GET,x_fem(i,1),NODE,nodes(i,1),LOC,X  ! LOC - nodal coordinates: x(i)=NX(node(i))  
+*GET,y_fem(i,1),NODE,nodes(i,1),LOC,Y   
+*GET,ux_fem(i,1),NODE,nodes(i,1),U,X  ! U - displacement components 
+*GET,uy_fem(i,1),NODE,nodes(i,1),U,Y
+*GET,ex_fem(i,1),NODE,nodes(i,1),EPEL,X ! EPEL - elastic strain components  
+*GET,ey_fem(i,1),NODE,nodes(i,1),EPEL,Y 
+*GET,exy_fem(i,1),NODE,nodes(i,1),EPEL,XY   
+*ENDDO  
+! Writing nodal solution
+*CREATE,ansuitmp
+*CFOPEN,Nodal_fea,dat,, 
+*VWRITE,nodes(1),x_fem(1),y_fem(1),ux_fem(1),uy_fem(1),ex_fem(1),ey_fem(1),exy_fem(1)   
+(F10.1,'  ',F10.6,'  ',F10.6,'  ',E16.10,'  ',E16.10,'  ',E16.10,'  ',E16.10,'  ',E16.10)   
+*CFCLOS 
+*END
+/INPUT,ansuitmp 
+! Writing nodal forces  
+ALLSEL,ALL  
+*DIM,nodal_fx,ARRAY,total_nodes,1   ! FX
+*DIM,nodal_fy,ARRAY,total_nodes,1   ! FY
+*DO,i,1,total_nodes,1   
+*GET,nodal_fx(i,1),NODE,nodes(i,1),RF,FX  ! FX  
+*GET,nodal_fy(i,1),NODE,nodes(i,1),RF,FY  ! FY  
+*ENDDO  
+*CREATE,ansuitmp
+*CFOPEN,Nodal_forces,dat,,  
+*VWRITE,nodes(1),nodal_fx(1),nodal_fy(1)
+(F10.1,'  ',E16.10,'  ',E16.10) 
+*CFCLOS 
+*END
+/INPUT,ansuitmp 
+!---------------------------------------Connectivity matrix---------------------------------------  
+ALLSEL,ALL  
+*GET,total_elements,ELEM,0,COUNT,,,  ! Counts the number of elements
+*DIM,elements,ARRAY,total_elements,1 ! List of the elements, identified by its number   
+*VGET,elements(1,1),ELEMENT,,ELIST  
+*DIM,connectivity,ARRAY,total_elements,5
+*DO, i, 1, total_elements,1 
+*SET,connectivity(i,1),elements(i,1)
+*SET,connectivity(i,2),NELEM(elements(i,1),1)   
+*SET,connectivity(i,3),NELEM(elements(i,1),2)   
+*SET,connectivity(i,4),NELEM(elements(i,1),3)   
+*SET,connectivity(i,5),NELEM(elements(i,1),4)   
+*ENDDO  
+*CREATE,ansuitmp
+*CFOPEN,Connectivity,dat,,  
+*VWRITE,elements(1),connectivity(1,2),connectivity(1,3),connectivity(1,4),connectivity(1,5) 
+(F10.1,'  ',F10.1,'  ',F10.1,'  ',F10.1,'  ',F10.1) 
+*CFCLOS 
+*END
+/INPUT,ansuitmp 
+FINISH  
+! /EXIT,MODEL   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:23:10
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:23:10
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       13:09:09
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       13:09:09
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       13:16:57
+/INPUT,'A00_10_CoordWriting','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       13:17:07
+/INPUT,'A00_10_CoordWriting_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       13:17:14
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       13:18:01
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       13:18:01
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       13:18:38
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       13:19:13
+/INPUT,'A00_10_FEA','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       13:19:20
+FINISH  
+/SOL
+FINISH  
+/PREP7  
+!*  
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       13:20:01
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:58:22
+/input,menust,tmp,''
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:59:14
+!*  
+PRNSOL,U,X  
+!*  
+!*  
+NLIST,ALL, , , ,NODE,NODE,NODE  
+elist,all,,,0,0 
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:40:49
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:40:49
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_CoordWriting','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:41:10
+!*  
+!*  
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+FINISH  
+! /EXIT,MODEL   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:45:38
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:45:38
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_CoordWriting','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:46:06
+!*  
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/INPUT,'A00_10_CoordWriting','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:52:22
+!*  
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+aplot   
+FLST,5,4,5,ORDE,4   
+FITEM,5,1   
+FITEM,5,4   
+FITEM,5,6   
+FITEM,5,8   
+ASEL,S, , ,P51X 
+FLST,5,5,5,ORDE,5   
+FITEM,5,2   
+FITEM,5,-3  
+FITEM,5,5   
+FITEM,5,7   
+FITEM,5,9   
+ASEL,S, , ,P51X 
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:55:23
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:55:23
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:55:46
+FINISH  
+/PREP7  
+!*  
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       21:47:44
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       21:47:44
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_CoordWriting_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00\A00_10\ANSYS\',, 0  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       21:48:12
+!*  
+aplot   
+aplot   
+FLST,5,4,5,ORDE,4   
+FITEM,5,2   
+FITEM,5,4   
+FITEM,5,6   
+FITEM,5,8   
+ASEL,S, , ,P51X 
+FLST,5,5,5,ORDE,5   
+FITEM,5,1   
+FITEM,5,3   
+FITEM,5,5   
+FITEM,5,7   
+FITEM,5,9   
+ASEL,S, , ,P51X 
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:49:33
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:49:33
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:51:02
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:55:59
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:55:59
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:56:28
+FINISH  
+/PREP7  
+!*  
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:04:26
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:04:26
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:05:29
+elist,all,,,0,0 
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:37:23
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:37:23
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:38:00
+elist,all,,,0,0 
+NLIST,ALL, , ,XYZ,NODE,NODE,NODE
+elist,all,,,0,0 
+SET,LIST,2  
+!*  
+PRNSOL,U,COMP   
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       17:11:35
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       17:11:35
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       17:12:57
+NLIST,ALL, , ,XYZ,NODE,NODE,NODE
+elist,all,,,0,0 
+FINISH  
+/SOL
+FINISH  
+/POST1  
+!*  
+!*  
+PRNSOL,U,COMP   
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       17:49:53
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       17:49:53
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       17:50:36
+NLIST,ALL, , ,XYZ,NODE,NODE,NODE
+elist,all,,,0,0 
+FINISH  
+/POST26 
+FILE,'A00_10','rst','.' 
+/UI,COLL,1  
+NUMVAR,200  
+SOLU,191,NCMIT  
+STORE,MERGE 
+FILLDATA,191,,,,1,1 
+REALVAR,191,191 
+FINISH  
+/POST1  
+!*  
+PRNSOL,U,COMP   
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       10:12:17
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       10:12:17
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+FINISH  
+! /EXIT,NOSAV   

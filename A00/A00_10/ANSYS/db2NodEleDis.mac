@@ -1,0 +1,38 @@
+! D. Henriques, J. Xavier, G. Andrade-Campos
+
+! FEmodel.mesh
+/POST1
+*CREATE,ansuitmp
+*CFOPEN,A00_10_nodes_elements_s27,mesh
+*VWRITE
+('*Part, name=AnsysPart')
+! nodes coordinates
+*VWRITE
+('*Node')
+ASEL,ALL
+NSLA,S,1
+*GET,nostot,NODE,0,COUNT,,, ! total number of selected nodes
+nnum = 0
+*DO,i,1,nostot,1
+nnum = NDNEXT(nnum)
+*VWRITE,nnum,NX(nnum),NY(nnum),0
+(F6.0,TL1,3(';',F16.10))
+*ENDDO
+! element connectivities
+*VWRITE
+('*Element')
+ESLN,S
+*GET,eletot,ELEM,0,COUNT,,, ! total number of selected elements
+enum=0
+*DO,i,1,eletot,1
+enum=ELNEXT(enum)
+NEI=NELEM(enum,1)
+NEJ=NELEM(enum,2)
+NEK=NELEM(enum,3)
+NEL=NELEM(enum,4)
+*VWRITE,enum,NEI,NEJ,NEK,NEL
+(F7.0,TL1,4(';',F8.0,TL1),' ')
+*ENDDO
+*CFCLOS ! *CFOPEN
+*END ! *CREATE
+/INPUT,ansuitmp

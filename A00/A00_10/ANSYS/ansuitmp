@@ -1,0 +1,16 @@
+*CFOPEN,A00_10_displacements_s27,csv
+*VWRITE
+('*Part, name=AnsysPart')
+! nodes coordinates
+*VWRITE
+('*Node')
+ASEL,ALL
+NSLA,S,1
+*GET,nostot,NODE,0,COUNT,,, ! total number of selected nodes
+nnum = 0
+*DO,i,1,nostot,1
+nnum = NDNEXT(nnum)
+*VWRITE,nnum,UX(nnum)+NX(nnum),UY(nnum)+NY(nnum),0
+(F6.0,TL1,';',F16.10,';',F16.10,';',F2.0)
+*ENDDO
+*CFCLOS ! *CFOPEN

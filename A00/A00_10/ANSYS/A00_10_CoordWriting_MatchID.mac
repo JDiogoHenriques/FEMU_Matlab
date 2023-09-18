@@ -1,0 +1,42 @@
+!*
+FINISH
+/CLEAR,START
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:48:01
+/input,start,ans,'C:\Program Files\ANSYS Inc\ANSYS Student\v211\ansys\apdl\'
+!/input,start,ans,'D:\Programs\ANSYS Inc\ANSYS Student\v211\ansys\apdl\'
+
+!* Importing data from Mesh file
+/INPUT,A00_10_MeshAux_MatchID,mac
+
+!* Writing data to mac file
+
+!* LEFT BOUNDARY NODES
+ALLSEL,ALL
+*DIM, ordering,,nodes_L ! Ordering index array
+*MOPER, ordering(1), Coord_nodes_L(1,1), SORT, , 3,2,1 ! ordering column
+
+ALLSEL,ALL
+
+*CREATE,ansuitmp
+*CFOPEN,Mesh_LeftEdge,dat,
+*vwrite, Coord_nodes_L(1,1), Coord_nodes_L(1,2), Coord_nodes_L(1,3)
+(F10.0, ' ', F12.6, ' ', F12.6)
+*CFCLOS
+*END
+/INPUT,ansuitmp
+
+!* RIGHT BOUNDARY NODES
+ALLSEL,ALL
+
+*DIM, ordering,,nodes_R ! Ordering index array
+*MOPER, ordering(1), Coord_nodes_R(1,1), SORT, , 3,2,1 ! ordering column
+
+ALLSEL,ALL
+
+*CREATE,ansuitmp
+*CFOPEN,Mesh_RightEdge,dat,
+*vwrite, Coord_nodes_R(1,1), Coord_nodes_R(1,2), Coord_nodes_R(1,3)
+(F10.0, ' ', F12.6, ' ', F12.6)
+*CFCLOS
+*END
+/INPUT,ansuitmp

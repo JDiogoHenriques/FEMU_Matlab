@@ -1,0 +1,1966 @@
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       19:11:32
+
+ *** WARNING ***                         CP =       1.094   TIME= 19:11:45
+ Discontinuous area set for VA command.  Line 2 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       1.203   TIME= 19:11:46
+ There are no selected unmeshed areas.  The AATT command is ignored.     
+
+ *** WARNING ***                         CP =       2.203   TIME= 19:12:20
+ Discontinuous area set for VA command.  Line 2 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       2.438   TIME= 19:12:46
+ There are no selected unmeshed areas.  The AATT command is ignored.     
+
+ *** WARNING ***                         CP =       3.797   TIME= 19:13:14
+ For material number 1, the ANEL table starting location of 22 exceeds   
+ the maximum value of 21.  The TBDATA command is ignored.                
+
+ *** WARNING ***                         CP =       3.812   TIME= 19:13:14
+ For material number 1, the ANEL table starting location of 22 exceeds   
+ the maximum value of 21.  The TBDATA command is ignored.                
+
+ *** WARNING ***                         CP =       3.844   TIME= 19:13:14
+ For material number 1, the ANEL table starting location of 22 exceeds   
+ the maximum value of 21.  The TBDATA command is ignored.                
+
+ *** WARNING ***                         CP =       3.859   TIME= 19:13:14
+ For material number 1, the ANEL table starting location of 22 exceeds   
+ the maximum value of 21.  The TBDATA command is ignored.                
+
+ *** WARNING ***                         CP =       3.922   TIME= 19:13:15
+ For material number 2, the ANEL table starting location of 22 exceeds   
+ the maximum value of 21.  The TBDATA command is ignored.                
+
+ *** WARNING ***                         CP =       3.922   TIME= 19:13:15
+ For material number 2, the ANEL table starting location of 22 exceeds   
+ the maximum value of 21.  The TBDATA command is ignored.                
+
+ *** WARNING ***                         CP =       3.922   TIME= 19:13:15
+ For material number 2, the ANEL table starting location of 22 exceeds   
+ the maximum value of 21.  The TBDATA command is ignored.                
+
+ *** WARNING ***                         CP =       3.938   TIME= 19:13:15
+ For material number 2, the ANEL table starting location of 22 exceeds   
+ the maximum value of 21.  The TBDATA command is ignored.                
+
+ *** WARNING ***                         CP =       4.016   TIME= 19:13:16
+ There are no selected unmeshed areas.  The AATT command is ignored.     
+
+ *** WARNING ***                         CP =       4.125   TIME= 19:13:16
+ There are no selected unmeshed areas.  The AATT command is ignored.     
+
+ *** WARNING ***                         CP =       4.734   TIME= 19:13:27
+ Discontinuous area set for VA command.  Line 2 is used 1 times for      
+ this list of areas.                                                     
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       19:29:24
+
+ *** WARNING ***                         CP =       2.141   TIME= 19:29:43
+ Discontinuous area set for VA command.  Line 2 is used 1 times for      
+ this list of areas.                                                     
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       19:34:56
+
+ *** WARNING ***                         CP =       1.672   TIME= 19:35:23
+ Discontinuous area set for VA command.  Line 2 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       4.203   TIME= 19:35:55
+ File A0010_MeshAux.mac does not exist.                                  
+  The /INPUT command is ignored.                                         
+
+ *** ERROR ***                           CP =       4.266   TIME= 19:35:55
+ No dimensions set for parameter= COORD_NODES_L.                         
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       10:19:04
+
+ *** WARNING ***                         CP =       1.312   TIME= 10:19:32
+ Discontinuous area set for VA command.  Line 2 is used 1 times for      
+ this list of areas.                                                     
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:23:05
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       13:09:04
+
+ *** WARNING ***                         CP =       1.375   TIME= 13:09:16
+ Discontinuous area set for VA command.  Line 2 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       9.234   TIME= 13:16:58
+ Discontinuous area set for VA command.  Line 2 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =      11.953   TIME= 13:17:07
+ Discontinuous area set for VA command.  Line 2 is used 1 times for      
+ this list of areas.                                                     
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       13:18:01
+
+ *** WARNING ***                         CP =       1.438   TIME= 13:18:08
+ Discontinuous area set for VA command.  Line 2 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       6.141   TIME= 13:18:18
+ NO WARNING ELEMENTS TO PLOT!                                            
+
+ *** WARNING ***                         CP =       6.234   TIME= 13:18:18
+ NO ERROR ELEMENTS TO PLOT!                                              
+
+ *** WARNING ***                         CP =       9.984   TIME= 13:18:38
+ Discontinuous area set for VA command.  Line 2 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =      11.500   TIME= 13:18:39
+ Entity 21426 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      11.609   TIME= 13:18:39
+ Entity 21426 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      11.703   TIME= 13:18:39
+ Entity 21527 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      11.719   TIME= 13:18:39
+ Entity 21527 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      11.719   TIME= 13:18:40
+ Entity 21526 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      11.734   TIME= 13:18:40
+ Entity 21526 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      11.734   TIME= 13:18:40
+ Entity 21525 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      11.750   TIME= 13:18:40
+ Entity 21525 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      11.766   TIME= 13:18:40
+ Entity 21524 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      11.781   TIME= 13:18:40
+ Entity 21524 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      11.797   TIME= 13:18:40
+ Entity 21523 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      11.797   TIME= 13:18:40
+ Entity 21523 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      11.812   TIME= 13:18:40
+ Entity 21522 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      11.812   TIME= 13:18:40
+ Entity 21522 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      11.844   TIME= 13:18:40
+ Entity 21521 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      11.859   TIME= 13:18:40
+ Entity 21521 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      11.875   TIME= 13:18:41
+ Entity 21520 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      11.875   TIME= 13:18:41
+ Entity 21520 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      11.891   TIME= 13:18:41
+ Entity 21519 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      11.906   TIME= 13:18:41
+ Entity 21519 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      11.922   TIME= 13:18:41
+ Entity 21518 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      11.922   TIME= 13:18:41
+ Entity 21518 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      11.938   TIME= 13:18:41
+ Entity 21517 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      11.953   TIME= 13:18:41
+ Entity 21517 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      11.953   TIME= 13:18:41
+ Entity 21516 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      11.969   TIME= 13:18:41
+ Entity 21516 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      11.984   TIME= 13:18:41
+ Entity 21515 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      11.984   TIME= 13:18:42
+ Entity 21515 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.000   TIME= 13:18:42
+ Entity 21514 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.000   TIME= 13:18:42
+ Entity 21514 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.016   TIME= 13:18:42
+ Entity 21513 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.031   TIME= 13:18:42
+ Entity 21513 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.047   TIME= 13:18:42
+ Entity 21512 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.047   TIME= 13:18:42
+ Entity 21512 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.078   TIME= 13:18:42
+ Entity 21511 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.094   TIME= 13:18:42
+ Entity 21511 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.109   TIME= 13:18:42
+ Entity 21510 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.125   TIME= 13:18:42
+ Entity 21510 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.141   TIME= 13:18:42
+ Entity 21509 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.156   TIME= 13:18:42
+ Entity 21509 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.172   TIME= 13:18:43
+ Entity 21508 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.188   TIME= 13:18:43
+ Entity 21508 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.203   TIME= 13:18:43
+ Entity 21507 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.234   TIME= 13:18:43
+ Entity 21507 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.250   TIME= 13:18:43
+ Entity 21506 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.266   TIME= 13:18:43
+ Entity 21506 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.297   TIME= 13:18:43
+ Entity 21505 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.312   TIME= 13:18:43
+ Entity 21505 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.344   TIME= 13:18:43
+ Entity 21504 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.344   TIME= 13:18:43
+ Entity 21504 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.359   TIME= 13:18:43
+ Entity 21503 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.359   TIME= 13:18:43
+ Entity 21503 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.375   TIME= 13:18:44
+ Entity 21502 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.375   TIME= 13:18:44
+ Entity 21502 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.391   TIME= 13:18:44
+ Entity 21501 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.406   TIME= 13:18:44
+ Entity 21501 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.422   TIME= 13:18:44
+ Entity 21500 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.422   TIME= 13:18:44
+ Entity 21500 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.422   TIME= 13:18:44
+ Entity 21499 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.422   TIME= 13:18:44
+ Entity 21499 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.422   TIME= 13:18:44
+ Entity 21498 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.438   TIME= 13:18:44
+ Entity 21498 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.453   TIME= 13:18:45
+ Entity 21497 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.453   TIME= 13:18:45
+ Entity 21497 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.469   TIME= 13:18:45
+ Entity 21496 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.484   TIME= 13:18:45
+ Entity 21496 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.500   TIME= 13:18:45
+ Entity 21495 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.500   TIME= 13:18:45
+ Entity 21495 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.500   TIME= 13:18:45
+ Entity 21494 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.516   TIME= 13:18:45
+ Entity 21494 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.531   TIME= 13:18:45
+ Entity 21493 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.531   TIME= 13:18:45
+ Entity 21493 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.531   TIME= 13:18:45
+ Entity 21492 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.531   TIME= 13:18:46
+ Entity 21492 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.531   TIME= 13:18:46
+ Entity 21491 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.531   TIME= 13:18:46
+ Entity 21491 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.547   TIME= 13:18:46
+ Entity 21490 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.547   TIME= 13:18:46
+ Entity 21490 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.547   TIME= 13:18:46
+ Entity 21489 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.562   TIME= 13:18:46
+ Entity 21489 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.562   TIME= 13:18:46
+ Entity 21488 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.562   TIME= 13:18:46
+ Entity 21488 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.578   TIME= 13:18:46
+ Entity 21487 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.594   TIME= 13:18:46
+ Entity 21487 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.609   TIME= 13:18:46
+ Entity 21486 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.609   TIME= 13:18:47
+ Entity 21486 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.609   TIME= 13:18:47
+ Entity 21485 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.625   TIME= 13:18:47
+ Entity 21485 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.641   TIME= 13:18:47
+ Entity 21484 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.641   TIME= 13:18:47
+ Entity 21484 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.656   TIME= 13:18:47
+ Entity 21483 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.656   TIME= 13:18:47
+ Entity 21483 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.672   TIME= 13:18:47
+ Entity 21482 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.688   TIME= 13:18:47
+ Entity 21482 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.688   TIME= 13:18:47
+ Entity 21481 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.688   TIME= 13:18:47
+ Entity 21481 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.688   TIME= 13:18:47
+ Entity 21480 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.703   TIME= 13:18:48
+ Entity 21480 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.703   TIME= 13:18:48
+ Entity 21479 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.703   TIME= 13:18:48
+ Entity 21479 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.703   TIME= 13:18:48
+ Entity 21478 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.719   TIME= 13:18:48
+ Entity 21478 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.734   TIME= 13:18:48
+ Entity 21477 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.734   TIME= 13:18:48
+ Entity 21477 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.734   TIME= 13:18:48
+ Entity 21476 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.750   TIME= 13:18:48
+ Entity 21476 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.766   TIME= 13:18:48
+ Entity 21475 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.781   TIME= 13:18:48
+ Entity 21475 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.781   TIME= 13:18:49
+ Entity 21474 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.797   TIME= 13:18:49
+ Entity 21474 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.812   TIME= 13:18:49
+ Entity 21473 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.812   TIME= 13:18:49
+ Entity 21473 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.812   TIME= 13:18:49
+ Entity 21472 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.828   TIME= 13:18:49
+ Entity 21472 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.828   TIME= 13:18:49
+ Entity 21471 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.844   TIME= 13:18:49
+ Entity 21471 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.859   TIME= 13:18:49
+ Entity 21470 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.859   TIME= 13:18:49
+ Entity 21470 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.859   TIME= 13:18:49
+ Entity 21469 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.875   TIME= 13:18:49
+ Entity 21469 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.875   TIME= 13:18:50
+ Entity 21468 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.891   TIME= 13:18:50
+ Entity 21468 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.891   TIME= 13:18:50
+ Entity 21467 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.891   TIME= 13:18:50
+ Entity 21467 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.906   TIME= 13:18:50
+ Entity 21466 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.938   TIME= 13:18:50
+ Entity 21466 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.953   TIME= 13:18:50
+ Entity 21465 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.969   TIME= 13:18:50
+ Entity 21465 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.969   TIME= 13:18:50
+ Entity 21464 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      12.984   TIME= 13:18:50
+ Entity 21464 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.000   TIME= 13:18:50
+ Entity 21463 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.000   TIME= 13:18:50
+ Entity 21463 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.016   TIME= 13:18:51
+ Entity 21462 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.031   TIME= 13:18:51
+ Entity 21462 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.047   TIME= 13:18:51
+ Entity 21461 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.047   TIME= 13:18:51
+ Entity 21461 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.047   TIME= 13:18:51
+ Entity 21460 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.047   TIME= 13:18:51
+ Entity 21460 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.047   TIME= 13:18:51
+ Entity 21459 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.047   TIME= 13:18:51
+ Entity 21459 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.047   TIME= 13:18:51
+ Entity 21458 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.047   TIME= 13:18:51
+ Entity 21458 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.062   TIME= 13:18:51
+ Entity 21457 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.078   TIME= 13:18:51
+ Entity 21457 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.094   TIME= 13:18:52
+ Entity 21456 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.094   TIME= 13:18:52
+ Entity 21456 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.109   TIME= 13:18:52
+ Entity 21455 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.109   TIME= 13:18:52
+ Entity 21455 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.109   TIME= 13:18:52
+ Entity 21454 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.109   TIME= 13:18:52
+ Entity 21454 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.109   TIME= 13:18:52
+ Entity 21453 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.109   TIME= 13:18:52
+ Entity 21453 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.125   TIME= 13:18:52
+ Entity 21452 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.125   TIME= 13:18:52
+ Entity 21452 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.125   TIME= 13:18:52
+ Entity 21451 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.141   TIME= 13:18:52
+ Entity 21451 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.141   TIME= 13:18:52
+ Entity 21450 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.156   TIME= 13:18:53
+ Entity 21450 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.156   TIME= 13:18:53
+ Entity 21449 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.172   TIME= 13:18:53
+ Entity 21449 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.172   TIME= 13:18:53
+ Entity 21448 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.172   TIME= 13:18:53
+ Entity 21448 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.188   TIME= 13:18:53
+ Entity 21447 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.188   TIME= 13:18:53
+ Entity 21447 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.203   TIME= 13:18:53
+ Entity 21446 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.203   TIME= 13:18:53
+ Entity 21446 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.203   TIME= 13:18:53
+ Entity 21445 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.203   TIME= 13:18:53
+ Entity 21445 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.219   TIME= 13:18:53
+ Entity 21444 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.219   TIME= 13:18:53
+ Entity 21444 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.219   TIME= 13:18:54
+ Entity 21443 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.234   TIME= 13:18:54
+ Entity 21443 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.234   TIME= 13:18:54
+ Entity 21442 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.234   TIME= 13:18:54
+ Entity 21442 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.266   TIME= 13:18:54
+ Entity 21441 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.266   TIME= 13:18:54
+ Entity 21441 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.266   TIME= 13:18:54
+ Entity 21440 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.281   TIME= 13:18:54
+ Entity 21440 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.281   TIME= 13:18:54
+ Entity 21439 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.281   TIME= 13:18:54
+ Entity 21439 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.281   TIME= 13:18:54
+ Entity 21438 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.297   TIME= 13:18:54
+ Entity 21438 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.312   TIME= 13:18:54
+ Entity 21437 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.344   TIME= 13:18:55
+ Entity 21437 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.359   TIME= 13:18:55
+ Entity 21436 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.359   TIME= 13:18:55
+ Entity 21436 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.359   TIME= 13:18:55
+ Entity 21435 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.359   TIME= 13:18:55
+ Entity 21435 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.359   TIME= 13:18:55
+ Entity 21434 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.375   TIME= 13:18:55
+ Entity 21434 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.391   TIME= 13:18:55
+ Entity 21433 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.391   TIME= 13:18:55
+ Entity 21433 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.406   TIME= 13:18:55
+ Entity 21432 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.406   TIME= 13:18:55
+ Entity 21432 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.422   TIME= 13:18:55
+ Entity 21431 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.453   TIME= 13:18:56
+ Entity 21431 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.469   TIME= 13:18:56
+ Entity 21430 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      13.469   TIME= 13:18:56
+ Entity 21430 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      19.125   TIME= 13:19:13
+ Discontinuous area set for VA command.  Line 2 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =      26.750   TIME= 13:19:27
+ NO WARNING ELEMENTS TO PLOT!                                            
+
+ *** WARNING ***                         CP =      26.844   TIME= 13:19:27
+ NO ERROR ELEMENTS TO PLOT!                                              
+
+ *** WARNING ***                         CP =      27.375   TIME= 13:19:35
+ Discontinuous area set for VA command.  Line 2 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =      28.922   TIME= 13:19:36
+ Entity 21426 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.016   TIME= 13:19:36
+ Entity 21426 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.109   TIME= 13:19:36
+ Entity 21527 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.172   TIME= 13:19:36
+ Entity 21527 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.203   TIME= 13:19:36
+ Entity 21526 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.219   TIME= 13:19:36
+ Entity 21526 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.219   TIME= 13:19:36
+ Entity 21525 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.234   TIME= 13:19:36
+ Entity 21525 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.250   TIME= 13:19:36
+ Entity 21524 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.250   TIME= 13:19:36
+ Entity 21524 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.250   TIME= 13:19:37
+ Entity 21523 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.266   TIME= 13:19:37
+ Entity 21523 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.281   TIME= 13:19:37
+ Entity 21522 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.281   TIME= 13:19:37
+ Entity 21522 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.281   TIME= 13:19:37
+ Entity 21521 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.281   TIME= 13:19:37
+ Entity 21521 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.297   TIME= 13:19:37
+ Entity 21520 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.297   TIME= 13:19:37
+ Entity 21520 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.297   TIME= 13:19:37
+ Entity 21519 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.297   TIME= 13:19:37
+ Entity 21519 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.312   TIME= 13:19:37
+ Entity 21518 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.312   TIME= 13:19:37
+ Entity 21518 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.312   TIME= 13:19:38
+ Entity 21517 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.328   TIME= 13:19:38
+ Entity 21517 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.344   TIME= 13:19:38
+ Entity 21516 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.344   TIME= 13:19:38
+ Entity 21516 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.375   TIME= 13:19:38
+ Entity 21515 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.391   TIME= 13:19:38
+ Entity 21515 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.391   TIME= 13:19:38
+ Entity 21514 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.406   TIME= 13:19:38
+ Entity 21514 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.406   TIME= 13:19:38
+ Entity 21513 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.406   TIME= 13:19:38
+ Entity 21513 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.422   TIME= 13:19:38
+ Entity 21512 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.438   TIME= 13:19:38
+ Entity 21512 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.453   TIME= 13:19:39
+ Entity 21511 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.453   TIME= 13:19:39
+ Entity 21511 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.453   TIME= 13:19:39
+ Entity 21510 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.453   TIME= 13:19:39
+ Entity 21510 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.453   TIME= 13:19:39
+ Entity 21509 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.453   TIME= 13:19:39
+ Entity 21509 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.453   TIME= 13:19:39
+ Entity 21508 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.453   TIME= 13:19:39
+ Entity 21508 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.453   TIME= 13:19:39
+ Entity 21507 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.453   TIME= 13:19:39
+ Entity 21507 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.453   TIME= 13:19:39
+ Entity 21506 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.453   TIME= 13:19:39
+ Entity 21506 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.453   TIME= 13:19:39
+ Entity 21505 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.469   TIME= 13:19:40
+ Entity 21505 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.469   TIME= 13:19:40
+ Entity 21504 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.469   TIME= 13:19:40
+ Entity 21504 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.469   TIME= 13:19:40
+ Entity 21503 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.469   TIME= 13:19:40
+ Entity 21503 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.469   TIME= 13:19:40
+ Entity 21502 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.469   TIME= 13:19:40
+ Entity 21502 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.469   TIME= 13:19:40
+ Entity 21501 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.484   TIME= 13:19:40
+ Entity 21501 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.484   TIME= 13:19:40
+ Entity 21500 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.484   TIME= 13:19:40
+ Entity 21500 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.484   TIME= 13:19:40
+ Entity 21499 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.484   TIME= 13:19:41
+ Entity 21499 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.484   TIME= 13:19:41
+ Entity 21498 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.500   TIME= 13:19:41
+ Entity 21498 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.516   TIME= 13:19:41
+ Entity 21497 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.516   TIME= 13:19:41
+ Entity 21497 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.531   TIME= 13:19:41
+ Entity 21496 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.531   TIME= 13:19:41
+ Entity 21496 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.531   TIME= 13:19:41
+ Entity 21495 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.547   TIME= 13:19:41
+ Entity 21495 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.547   TIME= 13:19:41
+ Entity 21494 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.547   TIME= 13:19:41
+ Entity 21494 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.547   TIME= 13:19:42
+ Entity 21493 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.547   TIME= 13:19:42
+ Entity 21493 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.547   TIME= 13:19:42
+ Entity 21492 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.562   TIME= 13:19:42
+ Entity 21492 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.578   TIME= 13:19:42
+ Entity 21491 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.594   TIME= 13:19:42
+ Entity 21491 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.594   TIME= 13:19:42
+ Entity 21490 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.594   TIME= 13:19:42
+ Entity 21490 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.625   TIME= 13:19:42
+ Entity 21489 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.641   TIME= 13:19:42
+ Entity 21489 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.641   TIME= 13:19:42
+ Entity 21488 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.656   TIME= 13:19:42
+ Entity 21488 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.672   TIME= 13:19:42
+ Entity 21487 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.672   TIME= 13:19:43
+ Entity 21487 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.672   TIME= 13:19:43
+ Entity 21486 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.688   TIME= 13:19:43
+ Entity 21486 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.688   TIME= 13:19:43
+ Entity 21485 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.703   TIME= 13:19:43
+ Entity 21485 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.719   TIME= 13:19:43
+ Entity 21484 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.719   TIME= 13:19:43
+ Entity 21484 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.719   TIME= 13:19:43
+ Entity 21483 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.734   TIME= 13:19:43
+ Entity 21483 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.750   TIME= 13:19:43
+ Entity 21482 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.766   TIME= 13:19:43
+ Entity 21482 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.781   TIME= 13:19:43
+ Entity 21481 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.781   TIME= 13:19:44
+ Entity 21481 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.812   TIME= 13:19:44
+ Entity 21480 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.828   TIME= 13:19:44
+ Entity 21480 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.844   TIME= 13:19:44
+ Entity 21479 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.859   TIME= 13:19:44
+ Entity 21479 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.875   TIME= 13:19:44
+ Entity 21478 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.875   TIME= 13:19:44
+ Entity 21478 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.875   TIME= 13:19:44
+ Entity 21477 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.875   TIME= 13:19:44
+ Entity 21477 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.875   TIME= 13:19:44
+ Entity 21476 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.891   TIME= 13:19:44
+ Entity 21476 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.891   TIME= 13:19:45
+ Entity 21475 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.906   TIME= 13:19:45
+ Entity 21475 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.906   TIME= 13:19:45
+ Entity 21474 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.906   TIME= 13:19:45
+ Entity 21474 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.906   TIME= 13:19:45
+ Entity 21473 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.906   TIME= 13:19:45
+ Entity 21473 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.906   TIME= 13:19:45
+ Entity 21472 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.922   TIME= 13:19:45
+ Entity 21472 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.922   TIME= 13:19:45
+ Entity 21471 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.922   TIME= 13:19:45
+ Entity 21471 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.922   TIME= 13:19:45
+ Entity 21470 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.922   TIME= 13:19:45
+ Entity 21470 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.938   TIME= 13:19:46
+ Entity 21469 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.953   TIME= 13:19:46
+ Entity 21469 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.953   TIME= 13:19:46
+ Entity 21468 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.969   TIME= 13:19:46
+ Entity 21468 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.969   TIME= 13:19:46
+ Entity 21467 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.969   TIME= 13:19:46
+ Entity 21467 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.984   TIME= 13:19:46
+ Entity 21466 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      29.984   TIME= 13:19:46
+ Entity 21466 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.000   TIME= 13:19:46
+ Entity 21465 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.016   TIME= 13:19:46
+ Entity 21465 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.016   TIME= 13:19:46
+ Entity 21464 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.031   TIME= 13:19:47
+ Entity 21464 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.047   TIME= 13:19:47
+ Entity 21463 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.062   TIME= 13:19:47
+ Entity 21463 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.062   TIME= 13:19:47
+ Entity 21462 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.078   TIME= 13:19:47
+ Entity 21462 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.094   TIME= 13:19:47
+ Entity 21461 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.094   TIME= 13:19:47
+ Entity 21461 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.109   TIME= 13:19:47
+ Entity 21460 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.125   TIME= 13:19:47
+ Entity 21460 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.125   TIME= 13:19:47
+ Entity 21459 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.125   TIME= 13:19:47
+ Entity 21459 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.125   TIME= 13:19:47
+ Entity 21458 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.125   TIME= 13:19:48
+ Entity 21458 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.125   TIME= 13:19:48
+ Entity 21457 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.141   TIME= 13:19:48
+ Entity 21457 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.141   TIME= 13:19:48
+ Entity 21456 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.141   TIME= 13:19:48
+ Entity 21456 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.156   TIME= 13:19:48
+ Entity 21455 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.156   TIME= 13:19:48
+ Entity 21455 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.172   TIME= 13:19:48
+ Entity 21454 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.172   TIME= 13:19:48
+ Entity 21454 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.172   TIME= 13:19:48
+ Entity 21453 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.188   TIME= 13:19:48
+ Entity 21453 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.188   TIME= 13:19:48
+ Entity 21452 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.203   TIME= 13:19:48
+ Entity 21452 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.203   TIME= 13:19:48
+ Entity 21451 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.203   TIME= 13:19:49
+ Entity 21451 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.219   TIME= 13:19:49
+ Entity 21450 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.219   TIME= 13:19:49
+ Entity 21450 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.219   TIME= 13:19:49
+ Entity 21449 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.234   TIME= 13:19:49
+ Entity 21449 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.234   TIME= 13:19:49
+ Entity 21448 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.234   TIME= 13:19:49
+ Entity 21448 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.250   TIME= 13:19:49
+ Entity 21447 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.250   TIME= 13:19:49
+ Entity 21447 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.266   TIME= 13:19:49
+ Entity 21446 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.266   TIME= 13:19:49
+ Entity 21446 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.266   TIME= 13:19:49
+ Entity 21445 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.281   TIME= 13:19:49
+ Entity 21445 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.281   TIME= 13:19:50
+ Entity 21444 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.281   TIME= 13:19:50
+ Entity 21444 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.297   TIME= 13:19:50
+ Entity 21443 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.312   TIME= 13:19:50
+ Entity 21443 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.312   TIME= 13:19:50
+ Entity 21442 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.312   TIME= 13:19:50
+ Entity 21442 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.312   TIME= 13:19:50
+ Entity 21441 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.312   TIME= 13:19:50
+ Entity 21441 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.312   TIME= 13:19:50
+ Entity 21440 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.312   TIME= 13:19:50
+ Entity 21440 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.312   TIME= 13:19:50
+ Entity 21439 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.312   TIME= 13:19:50
+ Entity 21439 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.312   TIME= 13:19:50
+ Entity 21438 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.312   TIME= 13:19:50
+ Entity 21438 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.312   TIME= 13:19:50
+ Entity 21437 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.328   TIME= 13:19:51
+ Entity 21437 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.344   TIME= 13:19:51
+ Entity 21436 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.344   TIME= 13:19:51
+ Entity 21436 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.344   TIME= 13:19:51
+ Entity 21435 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.344   TIME= 13:19:51
+ Entity 21435 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.344   TIME= 13:19:51
+ Entity 21434 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.359   TIME= 13:19:51
+ Entity 21434 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.375   TIME= 13:19:51
+ Entity 21433 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.375   TIME= 13:19:51
+ Entity 21433 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.391   TIME= 13:19:51
+ Entity 21432 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.391   TIME= 13:19:51
+ Entity 21432 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.391   TIME= 13:19:51
+ Entity 21431 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.391   TIME= 13:19:51
+ Entity 21431 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.391   TIME= 13:19:51
+ Entity 21430 is undefined.  The D command is ignored.                   
+
+ *** WARNING ***                         CP =      30.406   TIME= 13:19:52
+ Entity 21430 is undefined.  The D command is ignored.                   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:58:21
+
+ *** WARNING ***                         CP =       1.375   TIME= 18:58:33
+ Discontinuous area set for VA command.  Line 2 is used 1 times for      
+ this list of areas.                                                     
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:40:44
+
+ *** WARNING ***                         CP =       1.422   TIME= 18:40:56
+ Discontinuous area set for VA command.  Line 7 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       1.781   TIME= 18:40:56
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       2.609   TIME= 18:40:57
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.344   TIME= 18:40:57
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.391   TIME= 18:40:58
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.109   TIME= 18:40:59
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.047   TIME= 18:41:00
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.797   TIME= 18:41:00
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.141   TIME= 18:41:01
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.922   TIME= 18:41:01
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       8.078   TIME= 18:41:02
+ Shape testing revealed that 2 of the 29449 new or modified elements     
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***                         CP =       9.375   TIME= 18:41:10
+ Quadrilateral element 1921 has a pair of opposite edges that are 83.87  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       9.375   TIME= 18:41:10
+ Quadrilateral element 18146 has a pair of opposite edges that are       
+ 70.31 degrees away from being parallel.  This exceeds the warning       
+ limit of 70 degrees.                                                    
+
+ *** WARNING ***                         CP =       9.391   TIME= 18:41:10
+ Quadrilateral element 1921 has a pair of opposite edges that are 83.87  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       9.391   TIME= 18:41:10
+ Quadrilateral element 18146 has a pair of opposite edges that are       
+ 70.31 degrees away from being parallel.  This exceeds the warning       
+ limit of 70 degrees.                                                    
+
+ *** WARNING ***                         CP =       9.719   TIME= 18:41:14
+ Quadrilateral element 1921 has a pair of opposite edges that are 83.87  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       9.719   TIME= 18:41:14
+ Quadrilateral element 18146 has a pair of opposite edges that are       
+ 70.31 degrees away from being parallel.  This exceeds the warning       
+ limit of 70 degrees.                                                    
+
+ *** WARNING ***                         CP =       9.719   TIME= 18:41:14
+ Quadrilateral element 1921 has a pair of opposite edges that are 83.87  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       9.719   TIME= 18:41:14
+ Quadrilateral element 18146 has a pair of opposite edges that are       
+ 70.31 degrees away from being parallel.  This exceeds the warning       
+ limit of 70 degrees.                                                    
+
+ *** WARNING ***                         CP =      10.000   TIME= 18:41:15
+ Quadrilateral element 1921 has a pair of opposite edges that are 83.87  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =      10.000   TIME= 18:41:15
+ Quadrilateral element 18146 has a pair of opposite edges that are       
+ 70.31 degrees away from being parallel.  This exceeds the warning       
+ limit of 70 degrees.                                                    
+
+ *** WARNING ***                         CP =      10.031   TIME= 18:41:15
+ Quadrilateral element 1921 has a pair of opposite edges that are 83.87  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =      10.031   TIME= 18:41:15
+ Quadrilateral element 18146 has a pair of opposite edges that are       
+ 70.31 degrees away from being parallel.  This exceeds the warning       
+ limit of 70 degrees.                                                    
+
+ *** WARNING ***                         CP =      10.109   TIME= 18:41:15
+ Quadrilateral element 1921 has a pair of opposite edges that are 83.87  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =      10.109   TIME= 18:41:15
+ Quadrilateral element 18146 has a pair of opposite edges that are       
+ 70.31 degrees away from being parallel.  This exceeds the warning       
+ limit of 70 degrees.                                                    
+
+ *** WARNING ***                         CP =      10.141   TIME= 18:41:15
+ Quadrilateral element 1921 has a pair of opposite edges that are 83.87  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =      10.141   TIME= 18:41:15
+ Quadrilateral element 18146 has a pair of opposite edges that are       
+ 70.31 degrees away from being parallel.  This exceeds the warning       
+ limit of 70 degrees.                                                    
+
+ *** WARNING ***                         CP =      10.453   TIME= 18:41:16
+ Quadrilateral element 1921 has a pair of opposite edges that are 83.87  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =      10.453   TIME= 18:41:16
+ Quadrilateral element 18146 has a pair of opposite edges that are       
+ 70.31 degrees away from being parallel.  This exceeds the warning       
+ limit of 70 degrees.                                                    
+
+ *** WARNING ***                         CP =      10.453   TIME= 18:41:16
+ Quadrilateral element 1921 has a pair of opposite edges that are 83.87  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =      10.453   TIME= 18:41:16
+ Quadrilateral element 18146 has a pair of opposite edges that are       
+ 70.31 degrees away from being parallel.  This exceeds the warning       
+ limit of 70 degrees.                                                    
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:45:33
+
+ *** WARNING ***                         CP =       1.453   TIME= 18:45:52
+ Discontinuous area set for VA command.  Line 7 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       1.781   TIME= 18:45:52
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       2.609   TIME= 18:45:53
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.359   TIME= 18:45:54
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.359   TIME= 18:45:55
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.062   TIME= 18:45:55
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.984   TIME= 18:45:56
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.750   TIME= 18:45:57
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.062   TIME= 18:45:57
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.828   TIME= 18:45:58
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.953   TIME= 18:45:58
+ Shape testing revealed that 2 of the 29449 new or modified elements     
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***                         CP =       9.094   TIME= 18:46:05
+ Quadrilateral element 1921 has a pair of opposite edges that are 83.87  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       9.094   TIME= 18:46:05
+ Quadrilateral element 18146 has a pair of opposite edges that are       
+ 70.31 degrees away from being parallel.  This exceeds the warning       
+ limit of 70 degrees.                                                    
+
+ *** WARNING ***                         CP =       9.109   TIME= 18:46:05
+ Quadrilateral element 1921 has a pair of opposite edges that are 83.87  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       9.109   TIME= 18:46:05
+ Quadrilateral element 18146 has a pair of opposite edges that are       
+ 70.31 degrees away from being parallel.  This exceeds the warning       
+ limit of 70 degrees.                                                    
+
+ *** WARNING ***                         CP =       9.375   TIME= 18:46:07
+ Quadrilateral element 1921 has a pair of opposite edges that are 83.87  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       9.375   TIME= 18:46:07
+ Quadrilateral element 18146 has a pair of opposite edges that are       
+ 70.31 degrees away from being parallel.  This exceeds the warning       
+ limit of 70 degrees.                                                    
+
+ *** WARNING ***                         CP =       9.406   TIME= 18:46:07
+ Quadrilateral element 1921 has a pair of opposite edges that are 83.87  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       9.406   TIME= 18:46:07
+ Quadrilateral element 18146 has a pair of opposite edges that are       
+ 70.31 degrees away from being parallel.  This exceeds the warning       
+ limit of 70 degrees.                                                    
+
+ *** WARNING ***                         CP =       9.484   TIME= 18:46:07
+ Quadrilateral element 1921 has a pair of opposite edges that are 83.87  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       9.484   TIME= 18:46:07
+ Quadrilateral element 18146 has a pair of opposite edges that are       
+ 70.31 degrees away from being parallel.  This exceeds the warning       
+ limit of 70 degrees.                                                    
+
+ *** WARNING ***                         CP =       9.500   TIME= 18:46:07
+ Quadrilateral element 1921 has a pair of opposite edges that are 83.87  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       9.500   TIME= 18:46:07
+ Quadrilateral element 18146 has a pair of opposite edges that are       
+ 70.31 degrees away from being parallel.  This exceeds the warning       
+ limit of 70 degrees.                                                    
+
+ *** WARNING ***                         CP =       9.906   TIME= 18:52:10
+ Discontinuous area set for VA command.  Line 12 is used 1 times for     
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =      10.656   TIME= 18:52:11
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      11.266   TIME= 18:52:11
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      11.953   TIME= 18:52:12
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      13.469   TIME= 18:52:13
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      14.047   TIME= 18:52:14
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      15.016   TIME= 18:52:15
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      15.766   TIME= 18:52:15
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      16.500   TIME= 18:52:16
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      16.844   TIME= 18:52:16
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      19.359   TIME= 18:52:22
+ NO WARNING ELEMENTS TO PLOT!                                            
+
+ *** WARNING ***                         CP =      19.453   TIME= 18:52:22
+ NO ERROR ELEMENTS TO PLOT!                                              
+
+ *** WARNING ***                         CP =      19.875   TIME= 18:52:30
+ NO WARNING ELEMENTS TO PLOT!                                            
+
+ *** WARNING ***                         CP =      19.969   TIME= 18:52:30
+ NO ERROR ELEMENTS TO PLOT!                                              
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:55:18
+
+ *** WARNING ***                         CP =       1.484   TIME= 18:55:32
+ Discontinuous area set for VA command.  Line 12 is used 1 times for     
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       2.281   TIME= 18:55:34
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       2.891   TIME= 18:55:34
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.562   TIME= 18:55:35
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.078   TIME= 18:55:36
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.625   TIME= 18:55:36
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.578   TIME= 18:55:37
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.297   TIME= 18:55:38
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       8.031   TIME= 18:55:38
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       8.344   TIME= 18:55:39
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      16.641   TIME= 18:55:50
+ NO WARNING ELEMENTS TO PLOT!                                            
+
+ *** WARNING ***                         CP =      16.719   TIME= 18:55:50
+ NO ERROR ELEMENTS TO PLOT!                                              
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       21:47:39
+
+ *** WARNING ***                         CP =       1.562   TIME= 21:47:55
+ Discontinuous area set for VA command.  Line 7 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       1.969   TIME= 21:47:56
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.797   TIME= 21:47:58
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.641   TIME= 21:47:58
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.844   TIME= 21:47:59
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.672   TIME= 21:48:00
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.922   TIME= 21:48:01
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       8.594   TIME= 21:48:02
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       9.359   TIME= 21:48:02
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       9.766   TIME= 21:48:03
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      11.109   TIME= 21:48:11
+ NO WARNING ELEMENTS TO PLOT!                                            
+
+ *** WARNING ***                         CP =      11.219   TIME= 21:48:11
+ NO ERROR ELEMENTS TO PLOT!                                              
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:49:28
+
+ *** WARNING ***                         CP =       1.641   TIME= 16:49:42
+ Discontinuous area set for VA command.  Line 7 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       2.078   TIME= 16:49:43
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.766   TIME= 16:49:45
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.531   TIME= 16:49:45
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.656   TIME= 16:49:46
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.406   TIME= 16:49:47
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.547   TIME= 16:49:48
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       8.172   TIME= 16:49:49
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       8.906   TIME= 16:49:49
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       9.344   TIME= 16:49:50
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:55:55
+
+ *** WARNING ***                         CP =       1.688   TIME= 16:56:09
+ Discontinuous area set for VA command.  Line 7 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       2.062   TIME= 16:56:09
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.719   TIME= 16:56:11
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.516   TIME= 16:56:12
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.625   TIME= 16:56:13
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.406   TIME= 16:56:13
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.516   TIME= 16:56:14
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       8.156   TIME= 16:56:15
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       8.875   TIME= 16:56:15
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       9.281   TIME= 16:56:16
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      18.031   TIME= 16:56:34
+ NO WARNING ELEMENTS TO PLOT!                                            
+
+ *** WARNING ***                         CP =      18.094   TIME= 16:56:34
+ NO ERROR ELEMENTS TO PLOT!                                              
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:04:21
+
+ *** WARNING ***                         CP =       1.703   TIME= 16:05:05
+ Discontinuous area set for VA command.  Line 7 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       2.109   TIME= 16:05:06
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.938   TIME= 16:05:08
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.734   TIME= 16:05:08
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.000   TIME= 16:05:10
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.812   TIME= 16:05:10
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       8.047   TIME= 16:05:11
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       8.688   TIME= 16:05:12
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       9.484   TIME= 16:05:13
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       9.875   TIME= 16:05:13
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:37:17
+
+ *** WARNING ***                         CP =       1.797   TIME= 16:37:33
+ Discontinuous area set for VA command.  Line 7 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       2.219   TIME= 16:37:34
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.266   TIME= 16:37:36
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.188   TIME= 16:37:37
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.547   TIME= 16:37:38
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.422   TIME= 16:37:39
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       8.781   TIME= 16:37:40
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       9.453   TIME= 16:37:41
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      10.281   TIME= 16:37:41
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      10.734   TIME= 16:37:42
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       17:11:30
+
+ *** WARNING ***                         CP =       1.828   TIME= 17:12:04
+ Discontinuous area set for VA command.  Line 7 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       2.219   TIME= 17:12:04
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.109   TIME= 17:12:06
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.969   TIME= 17:12:07
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.312   TIME= 17:12:08
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.188   TIME= 17:12:09
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       8.516   TIME= 17:12:10
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       9.125   TIME= 17:12:11
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       9.938   TIME= 17:12:11
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      10.328   TIME= 17:12:11
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       17:49:48
+
+ *** WARNING ***                         CP =       1.625   TIME= 17:50:00
+ Discontinuous area set for VA command.  Line 7 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       2.016   TIME= 17:50:01
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.812   TIME= 17:50:02
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.656   TIME= 17:50:03
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.891   TIME= 17:50:04
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.703   TIME= 17:50:05
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.984   TIME= 17:50:06
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       8.625   TIME= 17:50:07
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       9.406   TIME= 17:50:07
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       9.828   TIME= 17:50:07
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       10:12:12

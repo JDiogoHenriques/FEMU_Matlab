@@ -1,0 +1,3069 @@
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       22:10:01
+
+ *** WARNING ***                         CP =       2.109   TIME= 22:10:37
+ Discontinuous area set for VA command.  Line 2 is used 1 times for      
+ this list of areas.                                                     
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:23:19
+
+ *** WARNING ***                         CP =       1.219   TIME= 18:23:28
+ Discontinuous area set for VA command.  Line 2 is used 1 times for      
+ this list of areas.                                                     
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =       6.125   TIME= 19:45:38
+ The index data file for nonlinear diagnostic A00_10_MatchID.ndindex     
+ could not be found.                                                     
+
+ *** WARNING ***                         CP =       6.125   TIME= 19:45:38
+ There were no nonlinear diagnostic files found.  Change the ANSYS       
+ jobname or directory to view nonlinear diagnostics.                     
+
+ *** WARNING ***                         CP =       6.469   TIME= 19:45:45
+ Discontinuous area set for VA command.  Line 2 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =      12.453   TIME= 20:16:35
+ Discontinuous area set for VA command.  Line 2 is used 1 times for      
+ this list of areas.                                                     
+
+ *** ERROR ***                           CP =      14.703   TIME= 20:16:37
+ Subscripts not allowed on scalar parameter TOTALFX.                     
+
+ *** ERROR ***                           CP =      14.781   TIME= 20:16:43
+ Subscripts not allowed on scalar parameter TOTALFX.                     
+
+ *** ERROR ***                           CP =      14.812   TIME= 20:16:44
+ Subscripts not allowed on scalar parameter TOTALFX.                     
+
+ *** ERROR ***                           CP =      14.875   TIME= 20:17:20
+ The above error occurred processing field= TOTALFX(1)                   
+  Line= *VWRITE,totalfx(1),totalfy(1).                                   
+
+ *** ERROR ***                           CP =      14.906   TIME= 20:17:20
+ Subscripts not allowed on scalar parameter TOTALFY.                     
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      14.922   TIME= 20:17:21
+ Subscripts not allowed on scalar parameter TOTALFY.                     
+
+ *** ERROR ***     SUPPRESSED MESSAGE    CP =      14.922   TIME= 20:17:21
+ The above error occurred processing field= TOTALFY(1)                   
+  Line= *VWRITE,totalfx(1),totalfy(1).                                   
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      14.922   TIME= 20:17:21
+ In the graphical user interface, the *VWRITE command can only be        
+ executed from an external file such as /INPUT or *USE.  The command is  
+ ignored.                                                                
+
+ *** WARNING ***   SUPPRESSED MESSAGE    CP =      14.922   TIME= 20:17:21
+ Error in format, not enough data format specifiers                      
+  .                                                                      
+
+ *** WARNING ***                         CP =      15.125   TIME= 20:17:32
+ Discontinuous area set for VA command.  Line 2 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =      17.953   TIME= 20:43:44
+ No commands saved in database.  UNDO not available.                     
+
+ *** WARNING ***                         CP =      18.859   TIME= 20:43:56
+ Error estimation is not available for PowerGraphics.                    
+  To see the error estimation, switch PowerGraphics off.                 
+
+ *** WARNING ***                         CP =      19.812   TIME= 20:47:27
+ No data is available for the selected model or FORCE location           
+ specifications.                                                         
+
+ *** WARNING ***                         CP =      20.094   TIME= 20:47:38
+ Discontinuous area set for VA command.  Line 2 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =      22.562   TIME= 20:47:56
+ No data is available for the selected model or FORCE location           
+ specifications.                                                         
+
+ *** WARNING ***                         CP =      22.656   TIME= 20:48:18
+ No data is available for the selected model or FORCE location           
+ specifications.                                                         
+
+ *** WARNING ***                         CP =      22.766   TIME= 20:48:37
+ No data is available for the selected model or FORCE location           
+ specifications.                                                         
+
+ *** WARNING ***                         CP =      22.875   TIME= 20:49:42
+ No data is available for the selected model or FORCE location           
+ specifications.                                                         
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       10:51:41
+
+ *** WARNING ***                         CP =       1.469   TIME= 10:57:05
+ Discontinuous area set for VA command.  Line 2 is used 1 times for      
+ this list of areas.                                                     
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       12:53:51
+
+ *** WARNING ***                         CP =       1.125   TIME= 12:54:36
+ Discontinuous area set for VA command.  Line 2 is used 1 times for      
+ this list of areas.                                                     
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       14:40:25
+
+ *** WARNING ***                         CP =       1.344   TIME= 14:40:37
+ Discontinuous area set for VA command.  Line 2 is used 1 times for      
+ this list of areas.                                                     
+
+ *** ERROR ***                           CP =       2.000   TIME= 14:40:38
+ The ANEL material 1 at temperature = 0 is not positive definite, either 
+ as a 6*6 or a 4*4 matrix.  Check input.                                 
+
+ *** ERROR ***                           CP =       2.234   TIME= 14:40:55
+ The ANEL material 2 at temperature = 0 is not positive definite, either 
+ as a 6*6 or a 4*4 matrix.  Check input.                                 
+
+ *** ERROR ***                           CP =       2.250   TIME= 14:40:55
+ The step data was checked and there were errors found.                  
+  Please check output or errors file ( C:\Users\joaod\OneDrive\Ambiente  
+ de Trabalho\Doutoramento\Artigo Cientifico\Codigo                       
+ Matlab\ANSYS\Compression\A00_10\ANSYS\A00_10_MatchID.err ) for          
+ messages.                                                               
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       17:02:00
+
+ *** WARNING ***                         CP =       1.391   TIME= 17:02:13
+ Discontinuous area set for VA command.  Line 2 is used 1 times for      
+ this list of areas.                                                     
+
+ *** ERROR ***                           CP =       2.125   TIME= 17:02:14
+ The ANEL material 1 at temperature = 0 is not positive definite, either 
+ as a 6*6 or a 4*4 matrix.  Check input.                                 
+
+ *** ERROR ***                           CP =       2.359   TIME= 17:02:15
+ The step data was checked and there were errors found.                  
+  Please check output or errors file ( C:\Users\joaod\OneDrive\Ambiente  
+ de Trabalho\Doutoramento\Artigo Cientifico\Codigo                       
+ Matlab\ANSYS\Compression\A00_10\ANSYS\A00_10_MatchID.err ) for          
+ messages.                                                               
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       12:32:19
+
+ *** WARNING ***                         CP =       1.281   TIME= 12:32:32
+ Discontinuous area set for VA command.  Line 2 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       5.078   TIME= 12:32:43
+ NO WARNING ELEMENTS TO PLOT!                                            
+
+ *** WARNING ***                         CP =       5.172   TIME= 12:32:43
+ NO ERROR ELEMENTS TO PLOT!                                              
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       13:20:29
+
+ *** WARNING ***                         CP =       1.250   TIME= 13:20:45
+ Discontinuous area set for VA command.  Line 2 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       8.703   TIME= 13:21:00
+ NO WARNING ELEMENTS TO PLOT!                                            
+
+ *** WARNING ***                         CP =       8.781   TIME= 13:21:00
+ NO ERROR ELEMENTS TO PLOT!                                              
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       14:35:37
+
+ *** WARNING ***                         CP =       1.156   TIME= 14:36:20
+ Discontinuous area set for VA command.  Line 7 is used 1 times for      
+ this list of areas.                                                     
+
+ *** ERROR ***                           CP =       1.312   TIME= 14:36:21
+ Area 1 is irregular.  Cannot be map meshed with quadrilaterals.         
+
+ *** WARNING ***                         CP =       1.625   TIME= 14:43:16
+ Discontinuous area set for VA command.  Line 7 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       1.844   TIME= 14:43:17
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       2.484   TIME= 14:43:17
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.188   TIME= 14:43:18
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.984   TIME= 14:43:18
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.672   TIME= 14:43:19
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.422   TIME= 14:43:20
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.938   TIME= 14:43:20
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.531   TIME= 14:43:20
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.781   TIME= 14:43:21
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.922   TIME= 14:43:21
+ Shape testing revealed that 1 of the 21475 new or modified elements     
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***                         CP =       7.750   TIME= 14:43:30
+ Quadrilateral element 1396 has a pair of opposite edges that are 80.34  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       7.766   TIME= 14:43:30
+ Quadrilateral element 1396 has a pair of opposite edges that are 80.34  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       8.047   TIME= 14:43:31
+ Quadrilateral element 1396 has a pair of opposite edges that are 80.34  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       8.078   TIME= 14:43:31
+ Quadrilateral element 1396 has a pair of opposite edges that are 80.34  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       8.141   TIME= 14:43:31
+ Quadrilateral element 1396 has a pair of opposite edges that are 80.34  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       8.172   TIME= 14:43:31
+ Quadrilateral element 1396 has a pair of opposite edges that are 80.34  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       8.422   TIME= 14:43:32
+ Quadrilateral element 1396 has a pair of opposite edges that are 80.34  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       8.438   TIME= 14:43:32
+ Quadrilateral element 1396 has a pair of opposite edges that are 80.34  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       8.531   TIME= 14:43:32
+ Quadrilateral element 1396 has a pair of opposite edges that are 80.34  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       8.531   TIME= 14:43:32
+ Quadrilateral element 1396 has a pair of opposite edges that are 80.34  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       8.625   TIME= 14:43:32
+ Quadrilateral element 1396 has a pair of opposite edges that are 80.34  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       8.625   TIME= 14:43:32
+ Quadrilateral element 1396 has a pair of opposite edges that are 80.34  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       8.859   TIME= 14:43:33
+ Quadrilateral element 1396 has a pair of opposite edges that are 80.34  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       8.891   TIME= 14:43:33
+ Quadrilateral element 1396 has a pair of opposite edges that are 80.34  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       8.969   TIME= 14:43:33
+ Quadrilateral element 1396 has a pair of opposite edges that are 80.34  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       9.000   TIME= 14:43:33
+ Quadrilateral element 1396 has a pair of opposite edges that are 80.34  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       9.062   TIME= 14:43:33
+ Quadrilateral element 1396 has a pair of opposite edges that are 80.34  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       9.078   TIME= 14:43:33
+ Quadrilateral element 1396 has a pair of opposite edges that are 80.34  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       9.344   TIME= 14:43:33
+ Quadrilateral element 1396 has a pair of opposite edges that are 80.34  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       9.375   TIME= 14:43:33
+ Quadrilateral element 1396 has a pair of opposite edges that are 80.34  
+ degrees away from being parallel.  This exceeds the warning limit of    
+ 70 degrees.                                                             
+
+ *** WARNING ***                         CP =       9.859   TIME= 14:49:54
+ Discontinuous area set for VA command.  Line 7 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =      10.406   TIME= 14:49:54
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      11.047   TIME= 14:49:55
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      11.453   TIME= 14:49:55
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      12.172   TIME= 14:49:56
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      12.797   TIME= 14:49:56
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      13.562   TIME= 14:49:57
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      14.094   TIME= 14:49:57
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      14.703   TIME= 14:49:58
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      14.969   TIME= 14:49:58
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      15.797   TIME= 14:50:03
+ NO WARNING ELEMENTS TO PLOT!                                            
+
+ *** WARNING ***                         CP =      15.891   TIME= 14:50:03
+ NO ERROR ELEMENTS TO PLOT!                                              
+
+ *** WARNING ***                         CP =      17.000   TIME= 14:54:32
+ Discontinuous area set for VA command.  Line 7 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =      17.562   TIME= 14:54:33
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      18.203   TIME= 14:54:33
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      18.625   TIME= 14:54:33
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      19.406   TIME= 14:54:34
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      20.047   TIME= 14:54:35
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      20.766   TIME= 14:54:35
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      21.281   TIME= 14:54:36
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      21.906   TIME= 14:54:36
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      22.156   TIME= 14:54:36
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      23.281   TIME= 14:55:15
+ Discontinuous area set for VA command.  Line 7 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =      23.859   TIME= 14:55:16
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      24.500   TIME= 14:55:16
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      24.906   TIME= 14:55:16
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      25.641   TIME= 14:55:17
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      26.297   TIME= 14:55:18
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      27.031   TIME= 14:55:18
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      27.562   TIME= 14:55:19
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      28.172   TIME= 14:55:19
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      28.422   TIME= 14:55:19
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       15:06:02
+
+ *** WARNING ***                         CP =       1.750   TIME= 15:06:28
+ Discontinuous area set for VA command.  Line 7 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       2.500   TIME= 15:06:29
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.328   TIME= 15:06:30
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.891   TIME= 15:06:30
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.906   TIME= 15:06:31
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.719   TIME= 15:06:32
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.781   TIME= 15:06:33
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.422   TIME= 15:06:33
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       8.234   TIME= 15:06:34
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       8.609   TIME= 15:06:34
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       8.719   TIME= 15:06:34
+ Shape testing revealed that 3 of the 29360 new or modified elements     
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***                         CP =       9.156   TIME= 15:06:34
+ Previous testing revealed that 3 of the 29360 selected elements violate 
+ shape warning limits.  To review warning messages, please see the       
+ output or error file, or issue the CHECK command.                       
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       15:17:13
+
+ *** WARNING ***                         CP =       1.656   TIME= 15:17:32
+ Discontinuous area set for VA command.  Line 7 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       2.422   TIME= 15:17:33
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.266   TIME= 15:17:34
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.797   TIME= 15:17:34
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.734   TIME= 15:17:35
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.516   TIME= 15:17:35
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.609   TIME= 15:17:36
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.234   TIME= 15:17:37
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       8.000   TIME= 15:17:37
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       8.359   TIME= 15:17:38
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       8.469   TIME= 15:17:38
+ Shape testing revealed that 3 of the 29360 new or modified elements     
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***                         CP =       8.906   TIME= 15:17:38
+ Previous testing revealed that 3 of the 29360 selected elements violate 
+ shape warning limits.  To review warning messages, please see the       
+ output or error file, or issue the CHECK command.                       
+
+ *** WARNING ***                         CP =      17.422   TIME= 15:17:53
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      17.422   TIME= 15:17:53
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      17.422   TIME= 15:17:53
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      17.453   TIME= 15:17:53
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      17.453   TIME= 15:17:53
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      17.453   TIME= 15:17:53
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      17.781   TIME= 15:17:56
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      17.781   TIME= 15:17:56
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      17.781   TIME= 15:17:56
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      17.797   TIME= 15:17:56
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      17.797   TIME= 15:17:56
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      17.797   TIME= 15:17:56
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      17.953   TIME= 15:17:56
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      17.953   TIME= 15:17:56
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      17.953   TIME= 15:17:56
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      17.984   TIME= 15:17:56
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      17.984   TIME= 15:17:56
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      17.984   TIME= 15:17:56
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      18.109   TIME= 15:17:56
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      18.109   TIME= 15:17:56
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      18.109   TIME= 15:17:56
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      18.141   TIME= 15:17:56
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      18.141   TIME= 15:17:56
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      18.141   TIME= 15:17:56
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      18.281   TIME= 15:17:56
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      18.281   TIME= 15:17:56
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      18.281   TIME= 15:17:56
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      18.312   TIME= 15:17:56
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      18.312   TIME= 15:17:56
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      18.312   TIME= 15:17:56
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      18.609   TIME= 15:17:57
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      18.609   TIME= 15:17:57
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      18.609   TIME= 15:17:57
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      18.641   TIME= 15:17:57
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      18.641   TIME= 15:17:57
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      18.641   TIME= 15:17:57
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      18.766   TIME= 15:17:57
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      18.766   TIME= 15:17:57
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      18.766   TIME= 15:17:57
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      18.797   TIME= 15:17:57
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      18.797   TIME= 15:17:57
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      18.797   TIME= 15:17:57
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      19.438   TIME= 15:18:18
+ Discontinuous area set for VA command.  Line 7 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =      20.188   TIME= 15:18:19
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      21.016   TIME= 15:18:20
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      21.578   TIME= 15:18:20
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      22.547   TIME= 15:18:21
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      23.328   TIME= 15:18:21
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      24.375   TIME= 15:18:22
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      24.969   TIME= 15:18:23
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      25.766   TIME= 15:18:23
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      26.109   TIME= 15:18:24
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      26.219   TIME= 15:18:24
+ Shape testing revealed that 3 of the 29360 new or modified elements     
+ violate shape warning limits.  To review test results, please see the   
+ output file or issue the CHECK command.                                 
+
+ *** WARNING ***                         CP =      27.375   TIME= 15:18:29
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      27.375   TIME= 15:18:29
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      27.375   TIME= 15:18:29
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      27.406   TIME= 15:18:29
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      27.406   TIME= 15:18:29
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      27.406   TIME= 15:18:29
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      27.781   TIME= 15:18:33
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      27.781   TIME= 15:18:33
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      27.781   TIME= 15:18:33
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      27.828   TIME= 15:18:33
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      27.828   TIME= 15:18:33
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      27.828   TIME= 15:18:33
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      28.125   TIME= 15:18:36
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      28.125   TIME= 15:18:36
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      28.125   TIME= 15:18:36
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      28.156   TIME= 15:18:36
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      28.156   TIME= 15:18:36
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      28.156   TIME= 15:18:36
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      28.438   TIME= 15:18:37
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      28.438   TIME= 15:18:37
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      28.438   TIME= 15:18:37
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      28.453   TIME= 15:18:37
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      28.453   TIME= 15:18:37
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      28.453   TIME= 15:18:37
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      28.781   TIME= 15:18:37
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      28.781   TIME= 15:18:37
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      28.781   TIME= 15:18:37
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      28.812   TIME= 15:18:37
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      28.812   TIME= 15:18:37
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      28.812   TIME= 15:18:37
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      29.047   TIME= 15:18:38
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      29.047   TIME= 15:18:38
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      29.047   TIME= 15:18:38
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      29.078   TIME= 15:18:38
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      29.078   TIME= 15:18:38
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      29.078   TIME= 15:18:38
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      29.328   TIME= 15:18:38
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      29.328   TIME= 15:18:38
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      29.328   TIME= 15:18:38
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      29.359   TIME= 15:18:38
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      29.359   TIME= 15:18:38
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      29.359   TIME= 15:18:38
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      29.578   TIME= 15:18:38
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      29.578   TIME= 15:18:38
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      29.578   TIME= 15:18:38
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      29.656   TIME= 15:18:38
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      29.656   TIME= 15:18:38
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      29.656   TIME= 15:18:38
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      29.812   TIME= 15:18:38
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      29.812   TIME= 15:18:38
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      29.812   TIME= 15:18:38
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      29.844   TIME= 15:18:38
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      29.844   TIME= 15:18:38
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      29.844   TIME= 15:18:38
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      30.172   TIME= 15:18:40
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      30.172   TIME= 15:18:40
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      30.172   TIME= 15:18:40
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      30.203   TIME= 15:18:40
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      30.203   TIME= 15:18:40
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      30.203   TIME= 15:18:40
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      30.406   TIME= 15:18:40
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      30.406   TIME= 15:18:40
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      30.406   TIME= 15:18:40
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      30.438   TIME= 15:18:40
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      30.438   TIME= 15:18:40
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      30.438   TIME= 15:18:40
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      30.656   TIME= 15:18:41
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      30.656   TIME= 15:18:41
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      30.656   TIME= 15:18:41
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      30.703   TIME= 15:18:41
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      30.703   TIME= 15:18:41
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      30.703   TIME= 15:18:41
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      30.906   TIME= 15:18:41
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      30.906   TIME= 15:18:41
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      30.906   TIME= 15:18:41
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      30.938   TIME= 15:18:41
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      30.938   TIME= 15:18:41
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      30.938   TIME= 15:18:41
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      31.172   TIME= 15:18:41
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      31.172   TIME= 15:18:41
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      31.172   TIME= 15:18:41
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      31.203   TIME= 15:18:41
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      31.203   TIME= 15:18:41
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      31.203   TIME= 15:18:41
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      31.422   TIME= 15:18:41
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      31.422   TIME= 15:18:41
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      31.422   TIME= 15:18:41
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      31.453   TIME= 15:18:41
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      31.453   TIME= 15:18:41
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      31.453   TIME= 15:18:41
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      31.766   TIME= 15:18:42
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      31.766   TIME= 15:18:42
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      31.766   TIME= 15:18:42
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      31.797   TIME= 15:18:42
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      31.797   TIME= 15:18:42
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      31.797   TIME= 15:18:42
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      31.969   TIME= 15:18:42
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      31.969   TIME= 15:18:42
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      31.969   TIME= 15:18:42
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      32.000   TIME= 15:18:42
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      32.000   TIME= 15:18:42
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      32.000   TIME= 15:18:42
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      32.312   TIME= 15:18:43
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      32.312   TIME= 15:18:43
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      32.312   TIME= 15:18:43
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      32.344   TIME= 15:18:43
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      32.344   TIME= 15:18:43
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      32.344   TIME= 15:18:43
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      32.469   TIME= 15:18:43
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      32.469   TIME= 15:18:43
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      32.469   TIME= 15:18:43
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      32.500   TIME= 15:18:43
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      32.500   TIME= 15:18:43
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      32.500   TIME= 15:18:43
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      32.578   TIME= 15:18:43
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      32.578   TIME= 15:18:43
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      32.578   TIME= 15:18:43
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      32.609   TIME= 15:18:43
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      32.609   TIME= 15:18:43
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      32.609   TIME= 15:18:43
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      32.922   TIME= 15:18:43
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      32.922   TIME= 15:18:43
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      32.922   TIME= 15:18:43
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      32.953   TIME= 15:18:43
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      32.953   TIME= 15:18:43
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      32.953   TIME= 15:18:43
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      33.047   TIME= 15:18:43
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      33.047   TIME= 15:18:43
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      33.047   TIME= 15:18:43
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      33.062   TIME= 15:18:43
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      33.062   TIME= 15:18:43
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      33.062   TIME= 15:18:43
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      33.172   TIME= 15:18:43
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      33.172   TIME= 15:18:44
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      33.172   TIME= 15:18:44
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      33.203   TIME= 15:18:44
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      33.203   TIME= 15:18:44
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      33.203   TIME= 15:18:44
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      33.484   TIME= 15:18:44
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      33.516   TIME= 15:18:44
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      33.516   TIME= 15:18:44
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      33.516   TIME= 15:18:44
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      33.516   TIME= 15:18:44
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      33.516   TIME= 15:18:44
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      33.625   TIME= 15:18:44
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      33.625   TIME= 15:18:44
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      33.625   TIME= 15:18:44
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      33.656   TIME= 15:18:44
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      33.656   TIME= 15:18:44
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      33.656   TIME= 15:18:44
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      34.000   TIME= 15:18:46
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      34.000   TIME= 15:18:46
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      34.000   TIME= 15:18:46
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      34.016   TIME= 15:18:46
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      34.016   TIME= 15:18:46
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      34.016   TIME= 15:18:46
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      34.281   TIME= 15:18:46
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      34.281   TIME= 15:18:46
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      34.281   TIME= 15:18:46
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      34.312   TIME= 15:18:46
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      34.312   TIME= 15:18:46
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      34.312   TIME= 15:18:46
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      34.578   TIME= 15:18:46
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      34.578   TIME= 15:18:46
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      34.578   TIME= 15:18:46
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      34.609   TIME= 15:18:46
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      34.609   TIME= 15:18:46
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      34.609   TIME= 15:18:46
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      34.828   TIME= 15:18:47
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      34.828   TIME= 15:18:47
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      34.828   TIME= 15:18:47
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      34.859   TIME= 15:18:47
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      34.859   TIME= 15:18:47
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      34.859   TIME= 15:18:47
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      35.094   TIME= 15:18:47
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      35.094   TIME= 15:18:47
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      35.094   TIME= 15:18:47
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      35.172   TIME= 15:18:47
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      35.172   TIME= 15:18:47
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      35.172   TIME= 15:18:47
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      35.453   TIME= 15:18:47
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      35.453   TIME= 15:18:47
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      35.453   TIME= 15:18:47
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      35.484   TIME= 15:18:47
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      35.484   TIME= 15:18:47
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      35.484   TIME= 15:18:47
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      35.641   TIME= 15:18:47
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      35.641   TIME= 15:18:47
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      35.641   TIME= 15:18:47
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      35.672   TIME= 15:18:47
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      35.672   TIME= 15:18:47
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      35.672   TIME= 15:18:47
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      35.797   TIME= 15:18:47
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      35.797   TIME= 15:18:47
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      35.797   TIME= 15:18:47
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      35.828   TIME= 15:18:47
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      35.828   TIME= 15:18:47
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      35.828   TIME= 15:18:47
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      36.109   TIME= 15:18:48
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      36.109   TIME= 15:18:48
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      36.109   TIME= 15:18:48
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      36.141   TIME= 15:18:48
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      36.141   TIME= 15:18:48
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      36.141   TIME= 15:18:48
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      36.234   TIME= 15:18:48
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      36.234   TIME= 15:18:48
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      36.234   TIME= 15:18:48
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      36.266   TIME= 15:18:48
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      36.266   TIME= 15:18:48
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      36.266   TIME= 15:18:48
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      36.578   TIME= 15:18:50
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      36.578   TIME= 15:18:50
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      36.578   TIME= 15:18:50
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      36.609   TIME= 15:18:50
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      36.609   TIME= 15:18:50
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      36.609   TIME= 15:18:50
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      36.844   TIME= 15:18:50
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      36.844   TIME= 15:18:50
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      36.844   TIME= 15:18:50
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      36.875   TIME= 15:18:50
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      36.875   TIME= 15:18:50
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      36.875   TIME= 15:18:50
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      37.125   TIME= 15:18:50
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      37.125   TIME= 15:18:50
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      37.125   TIME= 15:18:50
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      37.156   TIME= 15:18:50
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      37.156   TIME= 15:18:50
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      37.156   TIME= 15:18:50
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      37.422   TIME= 15:18:51
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      37.422   TIME= 15:18:51
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      37.422   TIME= 15:18:51
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      37.438   TIME= 15:18:51
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      37.438   TIME= 15:18:51
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      37.438   TIME= 15:18:51
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      37.562   TIME= 15:18:51
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      37.562   TIME= 15:18:51
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      37.562   TIME= 15:18:51
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      37.594   TIME= 15:18:51
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      37.594   TIME= 15:18:51
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      37.594   TIME= 15:18:51
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      37.875   TIME= 15:18:51
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      37.875   TIME= 15:18:51
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      37.875   TIME= 15:18:51
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      37.906   TIME= 15:18:51
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      37.906   TIME= 15:18:51
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      37.906   TIME= 15:18:51
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.031   TIME= 15:18:51
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.031   TIME= 15:18:51
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.031   TIME= 15:18:51
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.031   TIME= 15:18:51
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.031   TIME= 15:18:51
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.031   TIME= 15:18:51
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.156   TIME= 15:18:51
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.156   TIME= 15:18:51
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.156   TIME= 15:18:51
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.188   TIME= 15:18:51
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.188   TIME= 15:18:51
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.188   TIME= 15:18:51
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.516   TIME= 15:18:51
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.516   TIME= 15:18:51
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.516   TIME= 15:18:51
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.547   TIME= 15:18:51
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.547   TIME= 15:18:51
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.547   TIME= 15:18:51
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.672   TIME= 15:18:51
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.672   TIME= 15:18:51
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.672   TIME= 15:18:51
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.672   TIME= 15:18:51
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.672   TIME= 15:18:51
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.672   TIME= 15:18:51
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.797   TIME= 15:18:51
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.797   TIME= 15:18:51
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.797   TIME= 15:18:51
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.812   TIME= 15:18:51
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.812   TIME= 15:18:51
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      38.812   TIME= 15:18:51
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      39.297   TIME= 15:25:07
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      39.297   TIME= 15:25:07
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      39.297   TIME= 15:25:07
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      39.344   TIME= 15:25:07
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      39.344   TIME= 15:25:07
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      39.344   TIME= 15:25:07
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      40.234   TIME= 18:03:27
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      40.234   TIME= 18:03:27
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      40.234   TIME= 18:03:27
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      40.266   TIME= 18:03:27
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      40.266   TIME= 18:03:27
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      40.266   TIME= 18:03:27
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      40.422   TIME= 18:03:27
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      40.422   TIME= 18:03:27
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      40.422   TIME= 18:03:27
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      40.453   TIME= 18:03:27
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      40.453   TIME= 18:03:27
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      40.453   TIME= 18:03:27
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      40.734   TIME= 18:03:28
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      40.734   TIME= 18:03:28
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      40.734   TIME= 18:03:28
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      40.734   TIME= 18:03:28
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      40.734   TIME= 18:03:28
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      40.734   TIME= 18:03:28
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      40.859   TIME= 18:03:28
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      40.859   TIME= 18:03:28
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      40.859   TIME= 18:03:28
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      40.891   TIME= 18:03:28
+ Quadrilateral element 29117 has an angle between adjacent edges of      
+ 160.5 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      40.891   TIME= 18:03:28
+ Quadrilateral element 29118 has an angle between adjacent edges of      
+ 160.4 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      40.891   TIME= 18:03:28
+ Quadrilateral element 29119 has an angle between adjacent edges of      
+ 159.9 degrees, which exceeds the warning limit of 155 degrees.          
+
+ *** WARNING ***                         CP =      41.594   TIME= 18:08:25
+ Discontinuous area set for VA command.  Line 6 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =      41.781   TIME= 18:08:26
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      42.266   TIME= 18:08:26
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      43.281   TIME= 18:08:27
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      44.062   TIME= 18:08:28
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      44.594   TIME= 18:08:28
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      45.547   TIME= 18:08:29
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      46.297   TIME= 18:08:30
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      47.312   TIME= 18:08:30
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      47.922   TIME= 18:08:31
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      49.141   TIME= 18:08:36
+ NO WARNING ELEMENTS TO PLOT!                                            
+
+ *** WARNING ***                         CP =      49.234   TIME= 18:08:36
+ NO ERROR ELEMENTS TO PLOT!                                              
+
+ *** WARNING ***                         CP =      50.406   TIME= 18:10:39
+ Discontinuous area set for VA command.  Line 6 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =      50.562   TIME= 18:10:40
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      51.016   TIME= 18:10:40
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      51.969   TIME= 18:10:41
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      52.703   TIME= 18:10:42
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      53.234   TIME= 18:10:42
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      54.125   TIME= 18:10:43
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      54.844   TIME= 18:10:43
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      55.781   TIME= 18:10:44
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      56.375   TIME= 18:10:45
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      57.547   TIME= 18:10:51
+ NO WARNING ELEMENTS TO PLOT!                                            
+
+ *** WARNING ***                         CP =      57.641   TIME= 18:10:51
+ NO ERROR ELEMENTS TO PLOT!                                              
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:11:47
+
+ *** WARNING ***                         CP =       1.688   TIME= 18:12:00
+ Discontinuous area set for VA command.  Line 6 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       1.875   TIME= 18:12:01
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       2.375   TIME= 18:12:02
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.312   TIME= 18:12:02
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.109   TIME= 18:12:03
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.641   TIME= 18:12:03
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.531   TIME= 18:12:04
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.250   TIME= 18:12:05
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.219   TIME= 18:12:06
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.812   TIME= 18:12:06
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      16.344   TIME= 18:12:20
+ NO WARNING ELEMENTS TO PLOT!                                            
+
+ *** WARNING ***                         CP =      16.438   TIME= 18:12:20
+ NO ERROR ELEMENTS TO PLOT!                                              
+
+ *** WARNING ***                         CP =      16.859   TIME= 18:12:27
+ NO WARNING ELEMENTS TO PLOT!                                            
+
+ *** WARNING ***                         CP =      16.953   TIME= 18:12:27
+ NO ERROR ELEMENTS TO PLOT!                                              
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:15:12
+
+ *** WARNING ***                         CP =       1.625   TIME= 18:15:34
+ Discontinuous area set for VA command.  Line 6 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       1.828   TIME= 18:15:35
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       2.312   TIME= 18:15:35
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.281   TIME= 18:15:36
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.047   TIME= 18:15:37
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.562   TIME= 18:15:37
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.453   TIME= 18:15:38
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.219   TIME= 18:15:39
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.203   TIME= 18:15:40
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.828   TIME= 18:15:40
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      16.391   TIME= 18:15:53
+ NO WARNING ELEMENTS TO PLOT!                                            
+
+ *** WARNING ***                         CP =      16.500   TIME= 18:15:53
+ NO ERROR ELEMENTS TO PLOT!                                              
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:42:29
+
+ *** WARNING ***                         CP =       1.672   TIME= 18:42:40
+ Discontinuous area set for VA command.  Line 6 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       1.859   TIME= 18:42:41
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       2.328   TIME= 18:42:42
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.375   TIME= 18:42:42
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.125   TIME= 18:42:43
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.656   TIME= 18:42:43
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.516   TIME= 18:42:44
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.250   TIME= 18:42:45
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.234   TIME= 18:42:46
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.859   TIME= 18:42:46
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      16.312   TIME= 18:42:58
+ NO WARNING ELEMENTS TO PLOT!                                            
+
+ *** WARNING ***                         CP =      16.406   TIME= 18:42:58
+ NO ERROR ELEMENTS TO PLOT!                                              
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:56:58
+
+ *** WARNING ***                         CP =       1.641   TIME= 18:57:14
+ Discontinuous area set for VA command.  Line 6 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       1.797   TIME= 18:57:14
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       2.250   TIME= 18:57:15
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.156   TIME= 18:57:16
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.922   TIME= 18:57:16
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.422   TIME= 18:57:17
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.281   TIME= 18:57:18
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.016   TIME= 18:57:18
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.031   TIME= 18:57:19
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.609   TIME= 18:57:20
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      16.312   TIME= 18:57:31
+ NO WARNING ELEMENTS TO PLOT!                                            
+
+ *** WARNING ***                         CP =      16.406   TIME= 18:57:31
+ NO ERROR ELEMENTS TO PLOT!                                              
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       17:31:26
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       17:35:27
+
+ *** WARNING ***                         CP =       2.156   TIME= 17:35:43
+ Discontinuous area set for VA command.  Line 6 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       2.344   TIME= 17:35:44
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.000   TIME= 17:35:45
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.125   TIME= 17:35:46
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.016   TIME= 17:35:47
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.578   TIME= 17:35:47
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.641   TIME= 17:35:48
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.531   TIME= 17:35:49
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       8.688   TIME= 17:35:50
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       9.422   TIME= 17:35:51
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      19.562   TIME= 17:36:21
+ Discontinuous area set for VA command.  Line 6 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =      19.781   TIME= 17:36:21
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      20.453   TIME= 17:36:22
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      21.578   TIME= 17:36:23
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      22.500   TIME= 17:36:24
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      23.109   TIME= 17:36:24
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      24.188   TIME= 17:36:25
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      25.016   TIME= 17:36:26
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      26.219   TIME= 17:36:27
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      26.875   TIME= 17:36:28
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      37.109   TIME= 17:37:46
+ Discontinuous area set for VA command.  Line 6 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =      37.297   TIME= 17:37:47
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      37.875   TIME= 17:37:48
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      38.984   TIME= 17:37:49
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      39.953   TIME= 17:37:49
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      40.562   TIME= 17:37:50
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      41.656   TIME= 17:37:51
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      42.578   TIME= 17:37:52
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      43.750   TIME= 17:37:53
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      44.422   TIME= 17:37:53
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      45.938   TIME= 17:38:25
+ Discontinuous area set for VA command.  Line 6 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =      46.125   TIME= 17:38:25
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      46.672   TIME= 17:38:26
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      47.875   TIME= 17:38:27
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      48.812   TIME= 17:38:28
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      49.422   TIME= 17:38:28
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      50.547   TIME= 17:38:29
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      51.422   TIME= 17:38:30
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      52.625   TIME= 17:38:31
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      53.328   TIME= 17:38:31
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:00:35
+
+ *** WARNING ***                         CP =       2.031   TIME= 18:01:47
+ Discontinuous area set for VA command.  Line 6 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       2.281   TIME= 18:01:48
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       2.875   TIME= 18:01:49
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.000   TIME= 18:01:50
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.891   TIME= 18:01:50
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.500   TIME= 18:01:51
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.594   TIME= 18:01:52
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.484   TIME= 18:01:53
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       8.656   TIME= 18:01:54
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       9.344   TIME= 18:01:54
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      11.297   TIME= 18:03:32
+ Discontinuous area set for VA command.  Line 6 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =      11.484   TIME= 18:03:32
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      12.203   TIME= 18:03:33
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      13.328   TIME= 18:03:34
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      14.219   TIME= 18:03:35
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      14.812   TIME= 18:03:35
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      15.875   TIME= 18:03:36
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      16.734   TIME= 18:03:37
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      17.891   TIME= 18:03:38
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      18.609   TIME= 18:03:38
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:09:36
+
+ *** WARNING ***                         CP =       1.844   TIME= 18:10:13
+ Discontinuous area set for VA command.  Line 6 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       2.078   TIME= 18:10:14
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       2.641   TIME= 18:10:14
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.844   TIME= 18:10:16
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.719   TIME= 18:10:16
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.297   TIME= 18:10:17
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.344   TIME= 18:10:18
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.172   TIME= 18:10:18
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       8.328   TIME= 18:10:19
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       9.000   TIME= 18:10:20
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      10.562   TIME= 18:10:51
+ Discontinuous area set for VA command.  Line 6 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =      10.750   TIME= 18:10:51
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      11.438   TIME= 18:10:52
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      12.547   TIME= 18:10:53
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      13.438   TIME= 18:10:54
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      14.031   TIME= 18:10:54
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      15.109   TIME= 18:10:55
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      15.984   TIME= 18:10:56
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      17.172   TIME= 18:10:57
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      17.891   TIME= 18:10:57
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      30.156   TIME= 18:12:47
+ Discontinuous area set for VA command.  Line 6 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =      30.344   TIME= 18:12:47
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      31.031   TIME= 18:12:48
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      32.125   TIME= 18:12:49
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      33.062   TIME= 18:12:50
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      33.641   TIME= 18:12:50
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      34.703   TIME= 18:12:51
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      35.578   TIME= 18:12:52
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      36.766   TIME= 18:12:53
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      37.469   TIME= 18:12:54
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      38.906   TIME= 18:13:21
+ Discontinuous area set for VA command.  Line 6 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =      39.094   TIME= 18:13:21
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      39.812   TIME= 18:13:22
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      40.922   TIME= 18:13:23
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      41.828   TIME= 18:13:24
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      42.453   TIME= 18:13:24
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      43.531   TIME= 18:13:25
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      44.391   TIME= 18:13:26
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      45.594   TIME= 18:13:27
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      46.234   TIME= 18:13:28
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:16:17
+
+ *** WARNING ***                         CP =       1.750   TIME= 18:16:30
+ Discontinuous area set for VA command.  Line 6 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       1.953   TIME= 18:16:30
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       2.531   TIME= 18:16:31
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.562   TIME= 18:16:32
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.375   TIME= 18:16:33
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.938   TIME= 18:16:33
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.984   TIME= 18:16:34
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.766   TIME= 18:16:35
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.875   TIME= 18:16:36
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       8.516   TIME= 18:16:36
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       20:02:59
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       21:01:18
+
+ *** WARNING ***                         CP =       1.531   TIME= 21:01:33
+ Discontinuous area set for VA command.  Line 6 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       1.656   TIME= 21:01:33
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       2.109   TIME= 21:01:34
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.031   TIME= 21:01:34
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.797   TIME= 21:01:35
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.328   TIME= 21:01:35
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.234   TIME= 21:01:36
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.953   TIME= 21:01:37
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.906   TIME= 21:01:38
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.516   TIME= 21:01:38
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:31:59
+
+ *** WARNING ***                         CP =       1.688   TIME= 16:32:13
+ Discontinuous area set for VA command.  Line 6 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       1.859   TIME= 16:32:14
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       2.344   TIME= 16:32:14
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.281   TIME= 16:32:15
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.062   TIME= 16:32:16
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.578   TIME= 16:32:16
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.500   TIME= 16:32:17
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.219   TIME= 16:32:17
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.219   TIME= 16:32:18
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.812   TIME= 16:32:19
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      16.672   TIME= 16:32:37
+ NO WARNING ELEMENTS TO PLOT!                                            
+
+ *** WARNING ***                         CP =      16.734   TIME= 16:32:37
+ NO ERROR ELEMENTS TO PLOT!                                              
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:35:16
+
+ *** WARNING ***                         CP =       1.688   TIME= 16:35:46
+ Discontinuous area set for VA command.  Line 6 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       1.844   TIME= 16:35:46
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       2.344   TIME= 16:35:47
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.297   TIME= 16:35:48
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.031   TIME= 16:35:48
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.562   TIME= 16:35:49
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.453   TIME= 16:35:50
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.219   TIME= 16:35:50
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.219   TIME= 16:35:51
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.812   TIME= 16:35:51
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       17:03:42
+
+ *** WARNING ***                         CP =       1.703   TIME= 17:03:55
+ Discontinuous area set for VA command.  Line 6 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       1.891   TIME= 17:03:55
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       2.438   TIME= 17:03:56
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.391   TIME= 17:03:57
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.156   TIME= 17:03:58
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.672   TIME= 17:03:58
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.578   TIME= 17:03:59
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.359   TIME= 17:03:59
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.359   TIME= 17:04:00
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.984   TIME= 17:04:01
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      16.516   TIME= 17:04:17
+ NO WARNING ELEMENTS TO PLOT!                                            
+
+ *** WARNING ***                         CP =      16.578   TIME= 17:04:17
+ NO ERROR ELEMENTS TO PLOT!                                              
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       12:16:44
+
+ *** WARNING ***                         CP =       2.328   TIME= 12:17:15
+ File C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo   
+ Cientifico\Codigo                                                       
+ Matlab\ANSYS\Compression\A_00\A00_10\CAD\MatchID\IGES\A00_10.iges does  
+ not exist.                                                              
+  The IGES command is ignored.                                           
+
+ *** WARNING ***                         CP =       2.531   TIME= 12:17:15
+ Because keypoint merging has not been performed, automatic volume       
+ creation is suppressed.                                                 
+
+ *** WARNING ***                         CP =       2.625   TIME= 12:17:16
+ No areas defined to perform select operations.                          
+  ASEL command ignored.                                                  
+
+ *** WARNING ***                         CP =       2.641   TIME= 12:17:16
+ There are no selected unmeshed areas.  The AATT command is ignored.     
+
+ *** WARNING ***                         CP =       2.672   TIME= 12:17:16
+ No areas defined to perform select operations.                          
+  ASEL command ignored.                                                  
+
+ *** WARNING ***                         CP =       2.672   TIME= 12:17:16
+ There are no selected unmeshed areas.  The AATT command is ignored.     
+
+ *** WARNING ***                         CP =       2.688   TIME= 12:17:16
+ No *DO trips needed, enter *ENDDO .                                     
+
+ *** WARNING ***                         CP =       2.703   TIME= 12:17:16
+ There are no selected nodes.                                            
+  Parameter XMAX will be set to -1.2676506E+30.                          
+
+ *** WARNING ***                         CP =       2.719   TIME= 12:17:16
+ No *DO trips needed, enter *ENDDO .                                     
+
+ *** ERROR ***                           CP =       2.938   TIME= 12:20:01
+ An unexpected error ( SIG$BREAK ) has occurred...  ANSYS internal data  
+ has been corrupted.  ANSYS is unable to recover and will terminate.     
+ Previously saved files are unaffected.  Please send the data leading    
+ to this operation to your technical support provider, as this will      
+ allow ANSYS, Inc to improve the program.                                
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       12:24:43
+
+ *** WARNING ***                         CP =       1.609   TIME= 12:24:57
+ Discontinuous area set for VA command.  Line 6 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       1.812   TIME= 12:24:57
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       2.312   TIME= 12:24:58
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.219   TIME= 12:24:58
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.000   TIME= 12:24:59
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       4.516   TIME= 12:25:00
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.359   TIME= 12:25:00
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.078   TIME= 12:25:01
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.031   TIME= 12:25:02
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.609   TIME= 12:25:02
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:40:59
+
+ *** WARNING ***                         CP =       1.812   TIME= 16:41:23
+ Discontinuous area set for VA command.  Line 7 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =       2.172   TIME= 16:41:24
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.125   TIME= 16:41:25
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       3.938   TIME= 16:41:25
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.109   TIME= 16:41:27
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       5.891   TIME= 16:41:27
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       6.953   TIME= 16:41:28
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       7.531   TIME= 16:41:29
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       8.312   TIME= 16:41:29
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =       8.656   TIME= 16:41:30
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      10.516   TIME= 16:44:04
+ Discontinuous area set for VA command.  Line 7 is used 1 times for      
+ this list of areas.                                                     
+
+ *** WARNING ***                         CP =      10.844   TIME= 16:44:05
+ The mesh of area 1 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      11.859   TIME= 16:44:06
+ The mesh of area 2 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      12.719   TIME= 16:44:07
+ The mesh of area 3 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      13.891   TIME= 16:44:08
+ The mesh of area 4 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      14.688   TIME= 16:44:08
+ The mesh of area 5 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      15.844   TIME= 16:44:09
+ The mesh of area 6 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      16.531   TIME= 16:44:10
+ The mesh of area 7 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      17.312   TIME= 16:44:11
+ The mesh of area 8 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      17.703   TIME= 16:44:11
+ The mesh of area 9 contains PLANE182 triangles, which are much too      
+ stiff in bending.  Use quadratic (6- or 8-node) elements if possible.   
+
+ *** WARNING ***                         CP =      19.047   TIME= 16:44:20
+ NO WARNING ELEMENTS TO PLOT!                                            
+
+ *** WARNING ***                         CP =      19.141   TIME= 16:44:20
+ NO ERROR ELEMENTS TO PLOT!                                              
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       21:40:40
+
+ *** ERROR ***                           CP =       0.281   TIME= 21:40:45
+ Data file C:\Users\joaod\OneDrive\Ambiente de                           
+ Trabalho\Doutoramento\Artigo Cientifico\Codigo                          
+ Matlab\ANSYS\Compression\A00\A00_10\ANSYS\A00_10_MatchID.db does not    
+ exist for RESUME.                                                       
+
+ *** WARNING ***                         CP =       0.281   TIME= 21:40:45
+ WHILE PROCESSING FILE BASED INPUT (/INPUT OR MACRO) AN ERROR HAS        
+ OCCURRED.  SHOULD INPUT PROCESSING BE SUSPENDED?                        

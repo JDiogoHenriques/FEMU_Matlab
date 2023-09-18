@@ -1,0 +1,852 @@
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       22:10:06
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       22:10:06
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+!*  
+FINISH  
+/CLEAR,START
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       22:10:37
+/input,start,ans,'C:\Program Files\ANSYS Inc\ANSYS Student\v202\ANSYS\apdl\'
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:48:01  
+/input,start,ans,'C:\Program Files\ANSYS Inc\ANSYS Student\v202\ANSYS\apdl\'
+!*  
+/AUX15  
+!*  
+IOPTN,IGES,SMOOTH   
+IOPTN,MERGE,YES 
+IOPTN,SOLID,YES 
+IOPTN,SMALL,YES 
+IOPTN,GTOLER, DEFA  
+IGESIN,'A00_10','iges','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\CAD\MatchID\IGES'
+APLOT   
+APLOT   
+!*  
+!*  
+*DIM,Material_prop,ARRAY,1,4
+*CREATE,ansuitmp
+*VREAD,Material_prop(1,1),Number_Materials,dat,,JIK,4,1 
+(F12.6,'  ',F12.6,'  ',F12.6,'  ',F12.6)
+*END
+/INPUT,ansuitmp 
+*SET,Number_of_Materials,Material_prop(1,1)      ! 1 for Homogeneous Material; 2 for Heterogeneuous Material
+*SET,THICKNESS,Material_prop(1,2)   
+*SET,ELEMENTSZ,Material_prop(1,4)   
+*AFUN, DEG                                  ! Specifies units for angular functions in degrees  
+*SET,ang,Material_prop(1,3)                      ! off-axis angle (degrees) 
+!*  
+FINISH  
+/PREP7  
+!*  
+ET,1,PLANE182   
+!*  
+KEYOPT,1,1,0
+KEYOPT,1,3,3
+KEYOPT,1,6,0
+!*  
+R,1,THICKNESS   
+!*Reading Material properties   
+FLST,5,4,5,ORDE,4   
+FITEM,5,2   
+FITEM,5,4   
+FITEM,5,6   
+FITEM,5,8   
+ASEL,S, , ,P51X 
+FLST,5,5,5,ORDE,5   
+FITEM,5,1   
+FITEM,5,3   
+FITEM,5,5   
+FITEM,5,7   
+FITEM,5,9   
+ASEL,S, , ,P51X 
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+FINISH  
+! /EXIT,MODEL   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:23:20
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:23:20
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:23:55
+SET,LIST,2  
+PRITER  
+PRITER  
+LCDEF,STAT,ALL  
+!*  
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       19:46:14
+SET,LIST,999
+SET,,, ,,, ,1   
+!*  
+PRNLD,FX, ,ALL  
+PRNLD, FX, 0, BOTH  
+FSUM,BOTH   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       20:17:32
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       20:43:46
+FINISH  
+/AUX12  
+FINISH  
+/POST26 
+FILE,'A00_10_MatchID','rst','.' 
+/UI,COLL,1  
+NUMVAR,200  
+SOLU,191,NCMIT  
+STORE,MERGE 
+FILLDATA,191,,,,1,1 
+REALVAR,191,191 
+FINISH  
+/POST1  
+SET,LIST,2  
+PRERR   
+PRITER  
+!*  
+PRRSOL,FX   
+PRRSOL,F
+FORCE,TOTAL 
+allsell,all 
+PRNLD,FX, ,CONT 
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       20:47:56
+PRNLD,FX, ,CONT 
+force,total 
+PRNLD,FX, ,CONT 
+PRNLD,F, ,ALL   
+PRNLD,FX, ,CONT 
+PRNLD,FX, ,CONT 
+PRNLD,FX, ,ALL  
+PRRSOL,FX   
+PRRSOL, 
+PRRSOL,FX   
+PRRSOL,F
+FINISH  
+! /EXIT,MODEL   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       10:51:46
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       10:51:46
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       12:59:49
+FINISH  
+! /EXIT,MODEL   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       12:53:56
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       12:53:56
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       13:03:01
+FINISH  
+! /EXIT,MODEL   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       14:40:29
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       14:40:29
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       14:45:25
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       17:02:04
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       17:02:04
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       17:02:21
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       12:32:23
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       12:32:24
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       12:32:37
+FINISH  
+/PREP7  
+!*  
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       13:20:34
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       13:20:34
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       13:20:52
+FINISH  
+/PREP7  
+!*  
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       14:35:42
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       14:35:42
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_MeshAux_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       14:43:16
+/INPUT,'A00_10_MeshAux_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       14:43:30
+!*  
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/INPUT,'A00_10_MeshAux_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       14:50:03
+!*  
+aplot   
+/MREP,EPLOT 
+FLST,5,5,5,ORDE,5   
+FITEM,5,2   
+FITEM,5,-3  
+FITEM,5,5   
+FITEM,5,7   
+FITEM,5,9   
+ASEL,S, , ,P51X 
+FLST,5,4,5,ORDE,4   
+FITEM,5,1   
+FITEM,5,4   
+FITEM,5,6   
+FITEM,5,8   
+ASEL,S, , ,P51X 
+/INPUT,'A00_10_CoordWriting_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       14:55:15
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       14:55:27
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+FINISH  
+! /EXIT,MODEL   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       15:06:07
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       15:06:07
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       15:06:58
+elist,all,,,0,0 
+klist,all   
+klist,all,,,coord   
+FINISH  
+! /EXIT,MODEL   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       15:17:19
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       15:17:19
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       15:17:46
+FINISH  
+/PREP7  
+!*  
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/INPUT,'A00_10_CoordWriting_MatchID','mac','C:\USERS\JOAOD\ONEDRIVE\AMBIENTE DE TRABALHO\DOUTORAMENTO\ARTIGO CIENTIFICO\CODIGO MATLAB\ANSYS\COMPRESSION\A00_10\ANSYS\',, 0  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       15:18:29
+!*  
+/DIST,1,0.729,1 
+/REP,FAST   
+/FOC,1,-0.3,,,1 
+/REP,FAST   
+/FOC,1,-0.3,,,1 
+/REP,FAST   
+/FOC,1,0.3,,,1  
+/REP,FAST   
+/FOC,1,0.3,,,1  
+/REP,FAST   
+/FOC,1,0.3,,,1  
+/REP,FAST   
+/FOC,1,0.3,,,1  
+/REP,FAST   
+/FOC,1,0.3,,,1  
+/REP,FAST   
+/FOC,1,-0.3,,,1 
+/REP,FAST   
+/FOC,1,-0.3,,,1 
+/REP,FAST   
+/FOC,1,-0.3,,,1 
+/REP,FAST   
+/FOC,1,-0.3,,,1 
+/REP,FAST   
+/FOC,1,-0.3,,,1 
+/REP,FAST   
+/FOC,1,-0.3,,,1 
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/FOC,1,,0.3,,1  
+/REP,FAST   
+/FOC,1,,0.3,,1  
+/REP,FAST   
+/FOC,1,,0.3,,1  
+/REP,FAST   
+/FOC,1,,0.3,,1  
+/REP,FAST   
+/FOC,1,,0.3,,1  
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/FOC,1,-0.3,,,1 
+/REP,FAST   
+/FOC,1,-0.3,,,1 
+/REP,FAST   
+/FOC,1,-0.3,,,1 
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/INPUT,'A00_10_CoordWriting_MatchID','mac','C:\USERS\JOAOD\ONEDRIVE\AMBIENTE DE TRABALHO\DOUTORAMENTO\ARTIGO CIENTIFICO\CODIGO MATLAB\ANSYS\COMPRESSION\A00_10\ANSYS\',, 0  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:08:33
+FINISH  
+/SOL
+FINISH  
+/PREP7  
+!*  
+aplot   
+FLST,5,4,5,ORDE,4   
+FITEM,5,2   
+FITEM,5,-3  
+FITEM,5,6   
+FITEM,5,8   
+ASEL,S, , ,P51X 
+FLST,5,5,5,ORDE,5   
+FITEM,5,1   
+FITEM,5,4   
+FITEM,5,-5  
+FITEM,5,7   
+FITEM,5,9   
+ASEL,S, , ,P51X 
+/INPUT,'A00_10_CoordWriting_MatchID','mac','C:\USERS\JOAOD\ONEDRIVE\AMBIENTE DE TRABALHO\DOUTORAMENTO\ARTIGO CIENTIFICO\CODIGO MATLAB\ANSYS\COMPRESSION\A00_10\ANSYS\',, 0  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:10:51
+!*  
+FINISH  
+! /EXIT,MODEL   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:11:52
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:11:52
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:12:14
+FINISH  
+/PREP7  
+!*  
+!*  
+elist,all,,,0,0 
+klist,all,,,coord   
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:15:17
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:15:17
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:15:48
+FINISH  
+/PREP7  
+!*  
+klist,all,,,coord   
+elist,all,,,0,0 
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:42:34
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:42:34
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:42:54
+FINISH  
+/PREP7  
+!*  
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:57:03
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:57:03
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:57:27
+FINISH  
+/PREP7  
+!*  
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       17:31:31
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       17:31:31
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       17:35:33
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       17:35:33
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       17:36:04
+/DIST, 1 ,0.924021,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/DIST, 1 ,1.082226,1
+/REP,FAST   
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       17:37:46
+/INPUT,'A00_10_CoordWriting_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       17:38:24
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       17:40:08
+!*  
+!*  
+!*  
+PRNSOL,U,X  
+!*  
+PRVECT,U
+PRVECT,U
+PRVECT,U
+!*  
+PRNSOL,U,COMP   
+!*  
+PRNSOL,U,X  
+!*  
+PRNSOL,U,X  
+!*  
+PRNSOL,U,X  
+!*  
+PRNSOL,U,X  
+!*  
+PRNSOL,U,X  
+!*  
+PRNSOL,U,COMP   
+!*  
+PRNSOL,U,COMP   
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:00:40
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:00:41
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_CoordWriting_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:03:31
+/INPUT,'A00_10_FEA_MatchID','mac','C:\USERS\JOAOD\ONEDRIVE\AMBIENTE DE TRABALHO\DOUTORAMENTO\ARTIGO CIENTIFICO\CODIGO MATLAB\ANSYS\COMPRESSION\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:04:03
+FINISH  
+/SOL
+FINISH  
+/POST1  
+!*  
+PRNSOL,U,COMP   
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:09:41
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:09:41
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_CoordWriting_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:10:50
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:11:21
+klist,all,,,coord   
+klist,,,,HPT
+klist,all   
+NLIST,ALL, , , ,NODE,NODE,NODE  
+NLIST,ALL, , ,XYZ,NODE,NODE,NODE
+/INPUT,'A00_10_CoordWriting_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:13:20
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:13:42
+NLIST,ALL, , ,XYZ,NODE,NODE,NODE
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:16:22
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:16:22
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       18:17:43
+SET,LIST,2  
+PRVECT,U
+PRITER  
+/STAT,GLOBAL
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       20:03:04
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       20:03:04
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       21:01:23
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       21:01:23
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       21:01:53
+NLIST,ALL, , ,XYZ,NODE,NODE,NODE
+elist,all,,,0,0 
+!*  
+PRNSOL,U,COMP   
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:32:04
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:32:04
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:32:30
+FINISH  
+/SOL
+FINISH  
+/PREP7  
+!*  
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:35:21
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:35:21
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:36:02
+NLIST,ALL, , ,XYZ,NODE,NODE,NODE
+elist,all,,,0,0 
+!*  
+PRNSOL,U,COMP   
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       17:03:47
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       17:03:47
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       17:04:08
+FINISH  
+/PREP7  
+!*  
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       12:16:52
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       12:16:52
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_CoordWriting_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00\A00_10\ANSYS\',, 0  
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       12:24:48
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       12:24:48
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_FEA_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       12:25:11
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:41:04
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:41:05
+/GRA,POWER
+/GST,ON
+/PLO,INFO,3
+/GRO,CURL,ON
+/CPLANE,1   
+/REPLOT,RESIZE  
+WPSTYLE,,,,,,,,0
+/INPUT,'A00_10_MeshAux_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:41:53
+aplot   
+FLST,5,4,5,ORDE,4   
+FITEM,5,2   
+FITEM,5,4   
+FITEM,5,6   
+FITEM,5,8   
+ASEL,S, , ,P51X 
+FLST,5,5,5,ORDE,5   
+FITEM,5,1   
+FITEM,5,3   
+FITEM,5,5   
+FITEM,5,7   
+FITEM,5,9   
+ASEL,S, , ,P51X 
+/INPUT,'A00_10_MeshAux_MatchID','mac','C:\Users\joaod\OneDrive\Ambiente de Trabalho\Doutoramento\Artigo Cientifico\Codigo Matlab\ANSYS\Compression\A00\A00_10\ANSYS\',, 0   
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       16:44:15
+FINISH  
+/SOL
+FINISH  
+/PREP7  
+!*  
+FINISH  
+! /EXIT,NOSAV   
+/BATCH  
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       21:40:45
+/input,menust,tmp,''
+/COM,ANSYS RELEASE 2020 R2           BUILD 20.2      UP20200601       21:46:04
+EXIT
