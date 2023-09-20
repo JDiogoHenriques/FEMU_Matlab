@@ -12,7 +12,7 @@ MATLAB code for using the Finite Element Model Updating technique for identifyin
 
 1. Clone this repository.
 2. Download the following dataset for a working example: https://uapt33090-my.sharepoint.com/:f:/g/personal/joaodiogofh_ua_pt/EleubBYTDUJHrlG0Uy0WD9YB6eyiSsHPCKdxl3rpBi-wzw?e=ZumNcM
-3. Put the folder inside the A00 and overwrite the contents of the preexisting folder.
+3. Move the downloaded folder inside the folder "A00" and overwrite the contents of the preexisting folder.
 4. Run the code running "MesoFE.m".
 
 ## Usage
