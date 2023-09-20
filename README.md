@@ -1,5 +1,5 @@
 # FEMU_Matlab
-MATLAB code for using the Finite Element Model Updating technique for identifying material parameters using ANSYS with the option of using synthetic image generation through MatchID.
+MATLAB code for using the Finite Element Model Updating technique for identifying material parameters using ANSYS with the option of using synthetic image generation through MatchID. The example provided was used in wood specimens.
 
 ## Features
 - Experimental data processing.
